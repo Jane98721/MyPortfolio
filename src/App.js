@@ -1,8 +1,8 @@
-import Header from './header'
-import MainInfo from './main';
-
-import Buttons from './buttons'
-import ContactMe from './contact-me';
+import Header from './components/header'
+import MainInfo from './components/mainInfo';
+import ContactForm from './components/contactForm';
+import Buttons from './components/buttons'
+import MyProjects from './components/myProjects';
 
 function App() {
   return (
@@ -10,7 +10,9 @@ function App() {
 
     <Header/>
     <MainInfo/>
-    <ContactMe/>
+    <MyProjects/>
+    <Buttons/>
+    <ContactForm/>
 
     </>
   );
