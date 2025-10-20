@@ -1,32 +1,46 @@
 const MyProjects = () => {
-
+  
   return ( 
-    <>
-    <div className='bg-neutral-50 h-130 mt-10 border-b'>
+  <>
+  <div className='bg-neutral-100 h-130 mt-10'>
+    <h1 className ="font-bold text-2xl text-center mt-2 mb-3 pt-5">
+      My projects
+      </h1>
+      
+      <div className ="w-149 h-70
+      2xl:ml-160 xl:ml-110
+      lg:ml-55 md:ml-20">
         
-        <h1 className ="font-bold text-2xl text-center mt-2 mb-2 pt-5">
-          Mina projekt
-        </h1>
-
-        <div className ="w-149 h-70 ml-115">
-          <img src ="portal-projekt.png" alt="bild på portal projekt" className="w-full h-70">
-          </img>
-
-          <p className ="font-bold"> Portal </p>
-
-          <p>
-            Kodat frontend med React. Stylat med tailwind CSS samt kodat backend med Node Express.
+        <img src ="portal-projekt.png" alt="bild på portal projekt" 
+        className="2xl:w-full xl:w-full 
+        lg:w-full md:w-full
+        sm:w-full
+        w-80 h-70">
+        </img>
+        
+        <p className ="font-bold"> Portal </p>
+        
+        <p className ="2xl:w-full xl:w-full
+        lg:w-full md:w-full
+        sm:w-full
+        w-85">
+          The frontend is developed with React and styled using Tailwind CSS, while
+          the backend is implemented with Node.js & Express
           </p>
-
-          <p className ="font-bold mt-3">Länkar till Github</p>
-
-          <p><a href ="https://github.com/Jane98721/Portal-frontend.git">Klicka här för att se Frontend koden</a></p>
-
-          <p><a href ="https://github.com/Jane98721/Portal-backend.git">Klicka här för att se Backend koden</a></p>
-         </div>
+          
+          <p className ="font-bold mt-3">Links to Github</p>
+          <p className ="hover:cursor-pointer"><a 
+          href ="https://github.com/Jane98721/Portal-frontend.git">You can view the 
+          frontend code here
+          </a></p>
+          <p className ="hover:cursor-pointer"><a 
+          href ="https://github.com/Jane98721/Portal-backend.git">You can view the backend 
+          code here.
+          </a></p>
+          </div>
         </div>
       </>
-   );
-}
+    )
+  }
  
 export default MyProjects;

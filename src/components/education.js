@@ -1,21 +1,23 @@
 function Education () {
-
+  
   return (
-    <>
+  <>
+  
+  <div>
+    <h1 className ="text-4xl text-center mt-30">Education</h1>
+    
     <div>
-     
-     <h1 className ="text-4xl text-center mt-30">Utbildning</h1>
-
-      <div>
-        <h2 className ="text-2xl text-center mt-5">Frontend utvecklare inriktning webbsäkerhet</h2>
-        <p className ="text-xl text-center" >Jensens yrkeshögskola</p>
-        <p className ="text-center">Augusti 2023 - Juni 2025</p>
+      <h2 className ="text-2xl text-center mt-5">Frontend Developer Specialization in Web 
+        Security</h2>
+      <p className ="text-xl text-center" >Jensens yrkeshögskola</p>
+      <p className ="text-center">August 2023 - June 2025</p>
       </div>
       
       <div>
-        <h2 className ="text-2xl text-center mt-11">Sjuksköterskeexamen & medicin kandidatexamen</h2>
+        <h2 className ="text-2xl text-center mt-11"> Bachelor of Science in Nursing 
+          and Medicine. 180 hp</h2>
         <p className ="text-xl text-center">Karolinska Institutet</p>
-        <p className ="text-center">Januari 2019 - Januari 2022</p>
+        <p className ="text-center">January 2019 - January 2022</p>
       </div>
     </div>
     </>

@@ -21,45 +21,67 @@ const Github = <FontAwesomeIcon icon={faGithub} />
 
 
 function MainInfo () {
-
+  
   return (
-      <>
-      
-      <div> 
-
-        <div className ="h-120 bg-neutral-50  mt-10 border-b">
-
-        <p className ="w-120 mt-3 ml-110 pt-12">
-          Junior Frontend Developer som letar efter sitt första uppdrag!
-        </p>
-
-        <p className ="w-120 mt-3 ml-110">
-        För att hålla mina kunskaper skarpa samt för att fortsätta växa, bygger jag egna
-        projekt på fritiden. Nu är jag intresserad att få använda mina kunskaper i riktiga projekt.
-        </p>
-                 
-       <p className ="w-120 mt-10 text-center font-bold ml-110">
-        Jag har kunskaper inom 
-        </p>
-
-        <ul className ="grid grid-cols-3 mt-6 w-120 ml-110 text-xl">
-          <li>HTML{HTML}</li>
-          <li>CSS{CSS}</li>
-          <li>React{REACT}</li>
-          <li>Javascript{JS}</li>
-          <li>Node.js{NODE}</li>
-          <li>{A}/{B}-testing</li>
-          <li>Tailwind CSS</li>
-          <li>MongoDB{Database}</li>
-          <li>Github{Github}</li>
-        </ul>
-
-        <img src ="Bild.jpg" alt="Bild på mig" className ="w-60 border-3 absolute top-132 left-250"></img>
-
-      </div> 
-   </div>
-   </>
-  )
-}
+  <>
+  <div> 
+    <div className ="h-130 bg-neutral-100 mt-10">
+      <div 
+      className ="2xl:ml-140 2xl:w-120 
+      xl:ml-100 xl:w-120 
+      lg:ml-50 lg:w-120
+      md:ml-9 md:w-120
+      sm:w-120
+      w-90 ml-5 mt-3 pt-12">
+        
+        <p>
+          Junior Frontend Developer and ready for my first assignment!
+          </p>
+          
+          <p 
+          className ="mt-5">
+            To maintain and further develop my skills. I build my own projects in my spare time.
+             I am now eager to apply my knowledge and contribute to real-world projects
+             </p>
+             
+             <p className ="mt-10 text-center font-bold">
+              I have knowledge in
+              </p>
+              
+              <ul className ="grid 
+              2xl:grid-cols-3 2xl:text-xl
+              xl:grid-cols-3 xl:text-xl
+              lg:grid-cols-3 lg:text-xl
+              md:grid-cols-3 md:text-xl
+              sm:grid-cols-3 sm:text-xl
+              mt-6">
+                
+                <li>HTML{HTML}</li>
+                <li>CSS{CSS}</li>
+                <li>React{REACT}</li>
+                <li>Javascript{JS}</li>
+                <li>Node.js{NODE}</li>
+                <li>{A}/{B}-testing</li>
+                <li>Tailwind CSS</li>
+                <li>MongoDB{Database}</li>
+                <li>Github{Github}</li>
+                </ul>
+                
+                <img src ="Bild.jpg" alt="Bild på mig" className ="border-3 absolute 
+                2xl:w-60 2xl:top-138 2xl:left-275
+                xl:w-60 xl:top-132 xl:left-220
+                lg:w-60 lg:top-132 lg:left-170
+                md:w-60 md:top-132 md:left-130
+                sm:w-19 sm:top-214 sm:left-55
+                w-24 top-205 left-40"
+                >
+                  
+                </img>
+              </div>
+            </div> 
+          </div>
+        </>
+      )
+    }
 
 export default MainInfo

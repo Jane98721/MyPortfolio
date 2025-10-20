@@ -1,60 +1,60 @@
 function WorkExperience () {
-
+  
   return (
-
-    <div>
-      <h1 className ="text-4xl">Arbetslivserfarenhet</h1>
+  <div>
+    <h1 className ="text-4xl">Work Experience</h1>
+    
+    <div className = "border-b">
+      <h2 className ="text-xl mt-5">2 complete- Office manager</h2>
+      <p className ="text-lg mb-3">June 2024-November 2024</p>
+      <p className ="mb-2">Responsibilities</p>
       
-      <div className = "border-b">
-        <h2 className ="text-xl mt-5">2 complete- Office manager</h2>
-        <p className ="text-lg mb-3">Juni 2024-November 2024</p>
-        <p className ="mb-2">Arbetsuppgifter som office manager</p>
+      <ul>
+        <li>Writing monthly reports</li>
+        <li>Responsible for office supplies and materials</li>
+        <li>Resporting and following up maintenance issues</li>
+        <li>Responding to emails</li>
+        </ul>
+        
+        <p className ="mb-2 mt-2">When needed, I also worked as a receptionist, which included</p>
         
         <ul>
-          <li>Skriva månadsrapport </li>
-          <li>Ansvarig för material till kontoret </li>
-          <li>Felanmäla fel på kontoret </li>
-          <li>Svara på mejl </li>
-      </ul>
-      
-      <p className ="mb-2 mt-2">Vid behov arbetade jag som receptionist då fick jag </p>
-      
-      <ul>Välkomna besökare 
-        <li>Utfärda kort </li>
-        <li>Hjälpa till med kaffe & fika inför möten </li>
-        <li>Svara på telefon och mejl </li>
-      </ul>
-    </div>
-
-      <div className = "border-b">
-        <h2 className ="text-xl mt-5">Ad astra by Elite (Vana spa snäckviken) - Spavärdinna</h2>
-        <p> April 2024 – September 2024 </p>
-        <p className ="mb-2 mt-2" >Arbetsuppgifter som spavärdinna </p>
-        
-        <ul >
-          <li>Incheckning </li>
-          <li>Boka in gäster </li>
-          <li>Enklare städning </li>
-          <li>Ta emot beställningar i baren </li>
-          <li>Svara på mejl och telefon</li>
-        </ul>
-      </div>
-
-      <div>
-        <h2 className ="text-xl mt-5">Södertälje sjukhus - Sjuksköterska </h2>
-        <p> November 2022- Augusti 2023  </p>
-        <p>Februari 2022 -September 2022 </p>   
-        <p className ="mb-2 mt-2">Arbetsuppgifter som sjuksköterska </p>
-
-        <ul>
-          <li>Omvårdnadsansvar </li>
-          <li>Administrera läkemedel </li>
-          <li>Hantera olika medicintekniska moment  </li>
-          <li>Administration /journalföring i Take Care</li>
-        </ul>
-      </div>
-    </div>
-  )
-}
+          <li>Welcoming visitos</li>
+          <li>Issuing access cards</li>
+          <li>Assisting with coffee and refreshments for meetings</li>
+          <li>Answering phone calls and emails</li>
+          </ul>
+          </div>
+          
+          <div className = "border-b">
+            <h2 className ="text-xl mt-5">Ad astra by Elite (Vana spa snäckviken) - Spa host</h2>
+            <p> April 2024 – September 2024 </p>
+            <p className ="mb-2 mt-2" > Responsibilities </p>
+            
+            <ul >
+              <li>Check-n</li>
+              <li>Booking appointments</li>
+              <li>Light cleaning duties</li>
+              <li>Taking orders at the bar</li>
+              <li>Answering phone calls and emails</li>
+              </ul>
+              </div>
+              
+              <div>
+                <h2 className ="text-xl mt-5">Södertälje sjukhus - Registered Nurse</h2>
+                <p> November 2022- August 2023  </p>
+                <p>February 2022 -September 2022 </p>   
+                <p className ="mb-2 mt-2">Responsibilities </p>
+                
+                <ul>
+                  <li>Providing nursing care and ensuring patient well-being</li>
+                  <li>Administering medications</li>
+                  <li>Performing various medical procedures</li>
+                  <li>Documentation and medical record</li>
+                  </ul>
+                </div>
+              </div>
+            )
+          }
 
 export default WorkExperience

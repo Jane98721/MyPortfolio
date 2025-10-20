@@ -1,18 +1,18 @@
 function LanguageAndReference () {
-
+  
   return (
   
   <div> 
     <div className ="mt-30">
-      <h2 className ="text-4xl mb-3">Språk</h2>
-      <p>Svenska - Modersmål</p>
-      <p>Engelska - Flytande</p>
-      <p>Finska - Modersmål</p>
+      <h2 className ="text-4xl mb-3">Language</h2>
+      <p>Swedish - Native</p>
+      <p>English - Fluent</p>
+      <p>Finnish - Native</p>
       </div>
       
       <div className ="mt-10">
-        <h2 className ="text-4xl mb-3">Referenser</h2>
-        <p>Lämnas på begäran</p>
+        <h2 className ="text-4xl mb-3">Reference </h2>
+        <p>Available upon request</p>
       </div>
     </div>
   )
