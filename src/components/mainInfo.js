@@ -25,14 +25,14 @@ function MainInfo () {
   return (
   <>
   <div> 
-    <div className ="h-130 bg-neutral-100 mt-10">
+    <div className ="h-133 bg-neutral-100 mt-10">
       <div 
       className ="2xl:ml-140 2xl:w-120 
       xl:ml-100 xl:w-120 
       lg:ml-50 lg:w-120
       md:ml-9 md:w-120
       sm:w-120
-      w-90 ml-5 mt-3 pt-12">
+      w-90 ml-5 pt-23">
         
         <p>
           Junior Frontend Developer and ready for my first assignment!
@@ -48,7 +48,7 @@ function MainInfo () {
               I have knowledge in
               </p>
               
-              <ul className ="grid 
+              <ul className ="grid grid-cols-5 
               2xl:grid-cols-3 2xl:text-xl
               xl:grid-cols-3 xl:text-xl
               lg:grid-cols-3 lg:text-xl
@@ -68,14 +68,14 @@ function MainInfo () {
                 </ul>
                 
                 <img src ="Bild.jpg" alt="Bild på mig" className ="border-3 absolute 
-                2xl:w-60 2xl:top-138 2xl:left-275
-                xl:w-60 xl:top-132 xl:left-220
-                lg:w-60 lg:top-132 lg:left-170
-                md:w-60 md:top-132 md:left-130
-                sm:w-19 sm:top-214 sm:left-55
-                w-24 top-205 left-40"
+                2xl:w-60 2xl:top-147 2xl:left-275
+                xl:w-60 xl:top-150 xl:left-225
+                lg:w-60 lg:top-148 lg:left-174
+                md:w-60 md:top-146 md:left-130
+                sm:w-19 sm:top-230 sm:left-55
+                w-15 top-133 left-78"
                 >
-                  
+
                 </img>
               </div>
             </div> 

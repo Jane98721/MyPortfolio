@@ -25,15 +25,15 @@ const MyProjects = () => {
         sm:w-full
         w-85">
           The frontend is developed with React and styled using Tailwind CSS, while
-          the backend is implemented with Node.js & Express
+          the backend is implemented with Express - Node.js
           </p>
           
           <p className ="font-bold mt-3">Links to Github</p>
-          <p className ="hover:cursor-pointer"><a 
+          <p className ="hover:cursor-pointer hover:text-lg"><a 
           href ="https://github.com/Jane98721/Portal-frontend.git">You can view the 
           frontend code here
           </a></p>
-          <p className ="hover:cursor-pointer"><a 
+          <p className ="hover:cursor-pointer hover:text-lg"><a 
           href ="https://github.com/Jane98721/Portal-backend.git">You can view the backend 
           code here.
           </a></p>

@@ -35,44 +35,44 @@ function Buttons () {
           <button 
           className ="border-2 w-43 h-10 rounded-2xl hover:cursor-pointer hover:bg-gray-200
           2xl:ml-215
-          xl:ml-170
-          lg:ml-137
-          md:ml-102
-          sm:ml-60
-          ml-38 mb-2" 
+          xl:ml-167
+          lg:ml-108
+          md:ml-76
+          sm:ml-59
+          ml-33 mb-2" 
           onClick = {() =>setPopup("school")}> Education {school} 
           </button> 
           
           <button 
           className ="border-2 w-66 h-10 rounded-2xl hover:cursor-pointer hover:bg-gray-200
           2xl:ml-203
-          xl:ml-158
-          lg:ml-125
-          md:ml-90
-          sm:ml-48
-          ml-25 mb-2" 
+          xl:ml-155
+          lg:ml-96
+          md:ml-64
+          sm:ml-47
+          ml-20 mb-2" 
            onClick = {() => setPopup ('work')}> Work Experience {work} 
            </button>
            
            <button 
            className ="border-2 w-60 h-10 rounded-2xl hover:cursor-pointer hover:bg-gray-200
            2xl:ml-206
-           xl:ml-162
-           lg:ml-129
-           md:ml-94
-           sm:ml-52
-           ml-29 mb-2" 
+           xl:ml-159
+           lg:ml-100
+           md:ml-67
+           sm:ml-50
+           ml-23 mb-2" 
             onClick = {() => setPopup ('aboutMe')}> About me {me} 
             </button>
             
             <button 
             className ="border-2 w-75 h-10 rounded-2xl hover:cursor-pointer hover:bg-gray-200
             2xl:ml-197
-            xl:ml-153
-            lg:ml-120
-            md:ml-86
-            sm:ml-43
-            ml-20" 
+            xl:ml-150
+            lg:ml-91
+            md:ml-59
+            sm:ml-42
+            ml-15" 
             onClick = {() => setPopup ('other')}> Language & reference {rest} 
             </button>
             </div>
