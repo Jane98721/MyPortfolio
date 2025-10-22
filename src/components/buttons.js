@@ -33,7 +33,7 @@ function Buttons () {
         <div className ="flex flex-col items-center text-2xl mt-10">
           
           <button 
-          className ="border-2 w-75 h-10 mb-4 hover:bg-gray-200" 
+          className ="border-2 w-75 h-10 mb-4 hover:cursor-pointer hover:bg-gray-200" 
           onClick = {() =>setPopup("school")}> Education {school} 
           </button> 
           
@@ -43,7 +43,7 @@ function Buttons () {
            </button>
            
            <button 
-           className ="border-2 w-75 h-10 mb-4 hover:cursor-pointer hover:bg-gray-2002" 
+           className ="border-2 w-75 h-10 mb-4 hover:cursor-pointer hover:bg-gray-200" 
             onClick = {() => setPopup ('aboutMe')}> About me {me} 
             </button>
             

@@ -24,7 +24,7 @@ function MainInfo () {
   
 return (
   <>
-  <div className ="bg-neutral-100 w-full h-100 mt-20 "> 
+  <div className ="bg-neutral-100 w-full h-120 mt-20 "> 
     
     <div className ="flex flex-row items-center justify-center">
       
@@ -59,7 +59,8 @@ return (
           </div>
 
               <div>
-                 <img src ="Bild.jpg" alt="Bild på mig" className ="border-3 w-50 mt-20 ml-10"
+                 <img src ="Bild.jpg" alt="Bild på mig" 
+                 className ="border-3 w-40 mt-7 ml-15"
                 ></img>
                 </div>
             </div> 
