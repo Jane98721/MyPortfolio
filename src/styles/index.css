@@ -10,11 +10,6 @@
   --color-twitter-blue:#1DA1F2
 }
 
-.typography {
-  font-size: var(--text-base);
-  color: var(--color-gray-700);
-}
-
 .bounce {
   animation: bounce 1s infinite;
 }

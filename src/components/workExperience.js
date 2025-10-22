@@ -2,12 +2,12 @@ function WorkExperience () {
   
   return (
   <div>
-    <h1 className ="text-4xl">Work Experience</h1>
+    <h1 className ="text-3xl">Work Experience</h1>
     
     <div className = "border-b">
       <h2 className ="text-xl mt-5">2 complete- Office manager</h2>
       <p className ="text-lg mb-3">June 2024-November 2024</p>
-      <p className ="mb-2">Responsibilities</p>
+      <p className ="mb-2 font-bold">Responsibilities</p>
       
       <ul>
         <li>Writing monthly reports</li>
@@ -16,7 +16,7 @@ function WorkExperience () {
         <li>Responding to emails</li>
         </ul>
         
-        <p className ="mb-2 mt-2">When needed, I also worked as a receptionist, which included</p>
+        <p className ="mb-2 mt-2 font-bold">When needed, I also worked as a receptionist, which included</p>
         
         <ul>
           <li>Welcoming visitos</li>
@@ -29,7 +29,7 @@ function WorkExperience () {
           <div className = "border-b">
             <h2 className ="text-xl mt-5">Ad astra by Elite (Vana spa snäckviken) - Spa host</h2>
             <p> April 2024 – September 2024 </p>
-            <p className ="mb-2 mt-2" > Responsibilities </p>
+            <p className ="mb-2 mt-2 font-bold" > Responsibilities </p>
             
             <ul >
               <li>Check-n</li>
@@ -44,7 +44,7 @@ function WorkExperience () {
                 <h2 className ="text-xl mt-5">Södertälje sjukhus - Registered Nurse</h2>
                 <p> November 2022- August 2023  </p>
                 <p>February 2022 -September 2022 </p>   
-                <p className ="mb-2 mt-2">Responsibilities </p>
+                <p className ="mb-2 mt-2 font-bold">Responsibilities </p>
                 
                 <ul>
                   <li>Providing nursing care and ensuring patient well-being</li>

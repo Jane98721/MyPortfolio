@@ -15,7 +15,7 @@ const MyProjects = () => {
         
         <p className ="font-bold text-center mt-2"> Portal </p>
         
-        <p className ="w-100">
+        <p className ="w-80">
           The frontend is developed with React and styled using Tailwind CSS, while
           the backend is implemented with Express - Node.js
           </p>

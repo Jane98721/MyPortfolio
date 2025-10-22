@@ -24,26 +24,36 @@ function MainInfo () {
   
 return (
   <>
-  <div className ="bg-neutral-100 w-full h-120 mt-20 "> 
+  <div className ="bg-neutral-100 w-full h-125 mt-20 "> 
     
-    <div className ="flex flex-row items-center justify-center">
+    <div className ="flex flex-col items-center justify-center
+    xl:grid xl:grid-rows-1">
       
-      <div className ="h-80 w-130 mt-10 pt-12">
+      <div>
         
-        <p className='text-center text-lg'>
+        <img src ="Bild.jpg" alt="Bild på mig" 
+        className ="border-3 w-30 mt-2
+        lg:w-36 lg:mr-10 lg:mt-3
+        xl:ml-40"
+        />
+        </div>
+
+        <div className ="h-80 w-90 pt-1
+          lg:w-120 lg:mr-8">
+          <p className='text-center text-lg'>
           Junior Frontend Developer and ready for my first assignment!
           </p>
           
-          <p className ="text-center mt-5 text-md">
+          <p className ="text-center mt-5 text-sm">
             To maintain and further develop my skills. I build my own projects in my spare time.
              I am now eager to apply my knowledge and contribute to real-world projects
              </p>
              
-             <p className ="text-center font-bold mt-4">
+             <p className ="text-center font-bold mt-4 text-lg">
               I have knowledge in
               </p>
               
-              <ul className ="grid grid-cols-3 mt-6 ml-10">
+              <ul className ="grid grid-cols-3 mt-5 ml-10 text-lg">
                 
                 <li>HTML{HTML}</li>
                 <li>CSS{CSS}</li>
@@ -55,13 +65,6 @@ return (
                 <li>MongoDB{Database}</li>
                 <li>Github{Github}</li>
                 </ul>
-                
-          </div>
-
-              <div>
-                 <img src ="Bild.jpg" alt="Bild på mig" 
-                 className ="border-3 w-40 mt-7 ml-15"
-                ></img>
                 </div>
             </div> 
           </div>
