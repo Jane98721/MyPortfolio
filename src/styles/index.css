@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-*:initial;
+  --breakpoint-sm:480px;
+  --breakpoint-md:768px;
+  --breakpoint-lg:1024px;
+  --breakpoint-xl:1280px;
+  --breakpoint-2xl:1536px;
+  --color-twitter-blue:#1DA1F2
+}
+
+.typography {
+  font-size: var(--text-base);
+  color: var(--color-gray-700);
+}
 
 .bounce {
   animation: bounce 1s infinite;
@@ -14,4 +28,22 @@
     transform: none;
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
+}
+
+.animate-typing{
+  animation: typing 3.0s steps(35, end);
+}
+
+.animate-blink-caret{
+  animation: blink-caret .75s step end infinite
+}
+
+@keyframes typing {
+  from {width: 0}
+  to {width: 40ch;}
+}
+
+@keyframes blink-caret {
+  from, to {border-color: transparent}
+  50% {border-color: black}
 }

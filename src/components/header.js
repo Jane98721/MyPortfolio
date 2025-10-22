@@ -3,14 +3,14 @@ function Header () {
   return (
   <>
   <header>
-    <div className="w-full object-cover h-80 overflow-hidden ">
-      <img src ="vit blomma.jpg" alt ="vit blomma"></img>
+    <div className="h-[40vh] relative ">
+      <img className ="w-full h-full object-cover object-top-left" src ="vit blomma.jpg" alt ="vit blomma"></img>
+        <h1 className ="text-4xl
+        animate-typing animate-blink-caret tracking-wider whitespace-nowrap
+        overflow-hidden absolute
+        top-50 left-285"> 
+        Jane Lehtola - Junior Frontend Developer</h1>
       </div>
-      
-      <div className="bg-neutral-100 h-35">
-        <h1 className ="text-6xl text-center italic mt-5 pt-3 text-shadow-lg"> Jane Lehtola</h1>
-        <h2 className ="text-2xl text-center mt-3 italic ">Junior Frontend Developer</h2>
-        </div>
         </header>
       </>
     )

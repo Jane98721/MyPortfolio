@@ -24,55 +24,31 @@ function Buttons () {
   <> 
   <div className ="bg-neutral-100 mt-10 h-100">
     <div>
-      <p className ="text-2xl text-center pt-4"> 
+      <p className ="text-2xl text-center pt-4 font-bold"> 
         Click on the buttons below to get to know me better
         </p>
         
         <p className ="animate-bounce text-center mt-9">{arrow}</p>
         
-        <div className ="grid text-2xl mt-10">
+        <div className ="flex flex-col items-center text-2xl mt-10">
           
           <button 
-          className ="border-2 w-43 h-10 rounded-2xl hover:cursor-pointer hover:bg-gray-200
-          2xl:ml-215
-          xl:ml-167
-          lg:ml-108
-          md:ml-76
-          sm:ml-59
-          ml-33 mb-2" 
+          className ="border-2 w-75 h-10 mb-4 hover:bg-gray-200" 
           onClick = {() =>setPopup("school")}> Education {school} 
           </button> 
           
           <button 
-          className ="border-2 w-66 h-10 rounded-2xl hover:cursor-pointer hover:bg-gray-200
-          2xl:ml-203
-          xl:ml-155
-          lg:ml-96
-          md:ml-64
-          sm:ml-47
-          ml-20 mb-2" 
+          className ="border-2 w-75 h-10 mb-4 hover:cursor-pointer hover:bg-gray-200" 
            onClick = {() => setPopup ('work')}> Work Experience {work} 
            </button>
            
            <button 
-           className ="border-2 w-60 h-10 rounded-2xl hover:cursor-pointer hover:bg-gray-200
-           2xl:ml-206
-           xl:ml-159
-           lg:ml-100
-           md:ml-67
-           sm:ml-50
-           ml-23 mb-2" 
+           className ="border-2 w-75 h-10 mb-4 hover:cursor-pointer hover:bg-gray-2002" 
             onClick = {() => setPopup ('aboutMe')}> About me {me} 
             </button>
             
             <button 
-            className ="border-2 w-75 h-10 rounded-2xl hover:cursor-pointer hover:bg-gray-200
-            2xl:ml-197
-            xl:ml-150
-            lg:ml-91
-            md:ml-59
-            sm:ml-42
-            ml-15" 
+            className ="border-2 w-75 h-10 hover:cursor-pointer hover:bg-gray-200" 
             onClick = {() => setPopup ('other')}> Language & reference {rest} 
             </button>
             </div>

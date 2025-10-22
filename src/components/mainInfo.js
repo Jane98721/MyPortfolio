@@ -22,39 +22,28 @@ const Github = <FontAwesomeIcon icon={faGithub} />
 
 function MainInfo () {
   
-  return (
+return (
   <>
-  <div> 
-    <div className ="h-133 bg-neutral-100 mt-10">
-      <div 
-      className ="2xl:ml-140 2xl:w-120 
-      xl:ml-100 xl:w-120 
-      lg:ml-50 lg:w-120
-      md:ml-9 md:w-120
-      sm:w-120
-      w-90 ml-5 pt-23">
+  <div className ="bg-neutral-100 w-full h-100 mt-20 "> 
+    
+    <div className ="flex flex-row items-center justify-center">
+      
+      <div className ="h-80 w-130 mt-10 pt-12">
         
-        <p>
+        <p className='text-center text-lg'>
           Junior Frontend Developer and ready for my first assignment!
           </p>
           
-          <p 
-          className ="mt-5">
+          <p className ="text-center mt-5 text-md">
             To maintain and further develop my skills. I build my own projects in my spare time.
              I am now eager to apply my knowledge and contribute to real-world projects
              </p>
              
-             <p className ="mt-10 text-center font-bold">
+             <p className ="text-center font-bold mt-4">
               I have knowledge in
               </p>
               
-              <ul className ="grid grid-cols-5 
-              2xl:grid-cols-3 2xl:text-xl
-              xl:grid-cols-3 xl:text-xl
-              lg:grid-cols-3 lg:text-xl
-              md:grid-cols-3 md:text-xl
-              sm:grid-cols-3 sm:text-xl
-              mt-6">
+              <ul className ="grid grid-cols-3 mt-6 ml-10">
                 
                 <li>HTML{HTML}</li>
                 <li>CSS{CSS}</li>
@@ -67,17 +56,12 @@ function MainInfo () {
                 <li>Github{Github}</li>
                 </ul>
                 
-                <img src ="Bild.jpg" alt="Bild på mig" className ="border-3 absolute 
-                2xl:w-60 2xl:top-147 2xl:left-275
-                xl:w-60 xl:top-150 xl:left-225
-                lg:w-60 lg:top-148 lg:left-174
-                md:w-60 md:top-146 md:left-130
-                sm:w-19 sm:top-230 sm:left-55
-                w-15 top-133 left-78"
-                >
+          </div>
 
-                </img>
-              </div>
+              <div>
+                 <img src ="Bild.jpg" alt="Bild på mig" className ="border-3 w-50 mt-20 ml-10"
+                ></img>
+                </div>
             </div> 
           </div>
         </>

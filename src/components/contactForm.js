@@ -31,17 +31,14 @@ function ContactForm () {
   <div className ="w-full h-150 mt-5 bg-neutral-100 border-b">
     <div>
       <h1 className ="text-3xl text-center mt-12 mb-3 pt-5">Contact me</h1>
-      <form ref = {form} onSubmit={sendEmail} className ="grid grid-cols-1 
-      2xl:w-200  2xl:ml-135
-      xl:w-200 xl:ml-90
-      lg:w-200 lg:ml-40">
+      <form ref = {form} onSubmit={sendEmail} className ="flex flex-col items-center">
         
         <input 
         type ="text"
         placeholder="Name"
         name ="name"
         required
-        className ="border-2 rounded-2xl h-10 mb-3 mt-10 pl-2 bg-white" 
+        className ="border-2 h-10 mb-3 mt-10 pl-2 bg-white w-200" 
         />
         
         <input 
@@ -49,7 +46,7 @@ function ContactForm () {
         placeholder ="E-mail"
         name ="email"
         required
-        className ="border-2 rounded-2xl h-10 mb-3 mt-3 pl-2 bg-white" 
+        className ="border-2 h-10 mb-3 mt-3 pl-2 bg-white w-200" 
         />
 
         <input 
@@ -57,7 +54,7 @@ function ContactForm () {
         placeholder ="Subject"
         name ="title"
         required
-        className ="border-2 rounded-2xl h-10 mb-3 mt-3 pl-2 bg-white" 
+        className ="border-2 h-10 mb-3 mt-3 pl-2 bg-white w-200" 
         />
         
         <textarea 
@@ -65,11 +62,11 @@ function ContactForm () {
         placeholder ="Message"
         name ="message"
         required
-        className ="border-2 rounded-2xl h-50 mb-3 mt-3 pl-2 pt-2 bg-white" 
+        className ="border-2 h-50 mb-3 mt-3 pl-2 pt-2 bg-white w-200" 
         />
         
         <button
-        className ="border-4 rounded-2xl hover:cursor-pointer hover:bg-gray-100 
+        className ="border-4 hover:cursor-pointer hover:bg-gray-100 
         mb-10 mt-3 w-40 h-10 text-xl bg-white">
           Send
           </button>
