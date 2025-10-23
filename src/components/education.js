@@ -4,7 +4,7 @@ function Education () {
   <>
   
   <div className= "flex flex-col items-center justify-center">
-    <h1 className ="text-3xl text-center mt-4">Education</h1>
+   <h1 className ="text-3xl text-center mt-4">Education</h1>
     
     <div className ="w-75">
       <h2 className ="text-xl text-center mt-5">Frontend Developer Specialization in Web 
