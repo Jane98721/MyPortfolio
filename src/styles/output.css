@@ -213,6 +213,9 @@
   .z-50 {
     z-index: 50;
   }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -242,6 +245,9 @@
   }
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
+  }
+  .mt-15 {
+    margin-top: calc(var(--spacing) * 15);
   }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
@@ -305,6 +311,12 @@
   }
   .h-200 {
     height: calc(var(--spacing) * 200);
+  }
+  .h-240 {
+    height: calc(var(--spacing) * 240);
+  }
+  .h-260 {
+    height: calc(var(--spacing) * 260);
   }
   .h-\[25vh\] {
     height: 25vh;
@@ -436,6 +448,10 @@
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+  .text-base {
+    font-size: var(--text-base);
+    line-height: var(--tw-leading, var(--text-base--line-height));
   }
   .text-lg {
     font-size: var(--text-lg);

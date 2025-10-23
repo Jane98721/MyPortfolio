@@ -3,6 +3,8 @@ const AboutMe = () => {
   return ( 
   
   <>
+
+  <div className="text-base">
   <h1 className ="text-4xl mt-4"> About me </h1>
   
   <p className ="text-center pt-10">
@@ -13,7 +15,7 @@ const AboutMe = () => {
     
     <p className ="pt-5">In my spare time, I enjoy baking and planting flowers, 
       as well as traveling and discovering new places. </p>
-      
+      </div>
     </>
   );
 }
