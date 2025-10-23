@@ -38,7 +38,7 @@ function ContactForm () {
         placeholder="Name"
         name ="name"
         required
-        className ="border-2 w-94 h-10 mb-3 mt-10 pl-2 bg-white" 
+        className ="border-2 w-80 h-10 mb-3 mt-10 pl-2 bg-white" 
         />
         
         <input 
@@ -46,7 +46,7 @@ function ContactForm () {
         placeholder ="E-mail"
         name ="email"
         required
-        className ="border-2 w-94 h-10 mb-3 mt-3 pl-2 bg-white" 
+        className ="border-2 w-80 h-10 mb-3 mt-3 pl-2 bg-white" 
         />
 
         <input 
@@ -54,7 +54,7 @@ function ContactForm () {
         placeholder ="Subject"
         name ="title"
         required
-        className ="border-2 w-94 h-10 mb-3 mt-3 pl-2 bg-white" 
+        className ="border-2 w-80 h-10 mb-3 mt-3 pl-2 bg-white" 
         />
         
         <textarea 
@@ -62,7 +62,7 @@ function ContactForm () {
         placeholder ="Message"
         name ="message"
         required
-        className ="border-2 w-94 h-50 mb-3 mt-3 pl-2 pt-2 bg-white" 
+        className ="border-2 w-80 h-50 mb-3 mt-3 pl-2 pt-2 bg-white" 
         />
         
         <button

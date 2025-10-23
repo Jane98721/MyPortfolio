@@ -24,13 +24,12 @@ function MainInfo () {
   
 return (
   <>
-  <div className ="bg-neutral-100 w-full h-125 mt-20 "> 
+  <div className ="bg-neutral-100 w-full h-140 mt-20 "> 
     
     <div className ="flex flex-col items-center justify-center
     xl:grid xl:grid-rows-1">
       
       <div>
-        
         <img src ="Bild.jpg" alt="Bild på mig" 
         className ="border-3 w-30 mt-2
         lg:w-36 lg:mr-10 lg:mt-3
@@ -38,22 +37,25 @@ return (
         />
         </div>
 
-        <div className ="h-80 w-90 pt-1
-          lg:w-120 lg:mr-8">
-          <p className='text-center text-lg'>
+      <div className ="flex flex-col items-center justify-center">
+        
+        <div className ="pt-1
+          lg:w-120">
+          <p className='text-center text-lg w-80 ml-1'>
           Junior Frontend Developer and ready for my first assignment!
           </p>
           
-          <p className ="text-center mt-5 text-sm">
+          <p className ="text-center mt-5 text-sm w-80 ml-1">
             To maintain and further develop my skills. I build my own projects in my spare time.
              I am now eager to apply my knowledge and contribute to real-world projects
              </p>
              
-             <p className ="text-center font-bold mt-4 text-lg">
+             <p className ="text-center font-bold mt-8 text-lg">
               I have knowledge in
               </p>
-              
-              <ul className ="grid grid-cols-3 mt-5 ml-10 text-lg">
+              </div>
+
+              <ul className ="grid grid-cols-3 mt-5 ml-9 text-lg w-80">
                 
                 <li>HTML{HTML}</li>
                 <li>CSS{CSS}</li>
