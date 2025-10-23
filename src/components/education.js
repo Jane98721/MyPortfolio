@@ -3,7 +3,7 @@ function Education () {
   return (
   <>
   
-  <div>
+  <div className= "h-120 flex flex-col items-center justify-center">
     <h1 className ="text-3xl text-center mt-30">Education</h1>
     
     <div>

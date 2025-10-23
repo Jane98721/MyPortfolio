@@ -4,7 +4,7 @@ const AboutMe = () => {
   
   <>
 
-  <div className="text-base">
+  <div className="text-base h-100 flex flex-col items-center justify-center">
   <h1 className ="text-4xl mt-4"> About me </h1>
   
   <p className ="text-center pt-10">
