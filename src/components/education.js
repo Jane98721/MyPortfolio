@@ -3,10 +3,10 @@ function Education () {
   return (
   <>
   
-  <div className= "h-120 flex flex-col items-center justify-center">
+  <div className= "flex flex-col items-center justify-center">
     <h1 className ="text-3xl text-center mt-30">Education</h1>
     
-    <div>
+    <div className ="w-80">
       <h2 className ="text-xl text-center mt-5">Frontend Developer Specialization in Web 
         Security</h2>
       <p className ="text-xl text-center" >Jensens yrkeshögskola</p>

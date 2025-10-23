@@ -4,16 +4,16 @@ const AboutMe = () => {
   
   <>
 
-  <div className="text-base h-100 flex flex-col items-center justify-center">
+  <div className="text-base flex flex-col items-center justify-center">
   <h1 className ="text-4xl mt-4"> About me </h1>
   
-  <p className ="text-center pt-10">
+  <p className ="text-center pt-10 w-75">
     I am someone who enjoys learning and developing new skills. When I find something 
     difficult, I make sure to practice until I master it. 
     I believe that anything can be learned with the right motivation and interest &#128512;
     </p>
     
-    <p className ="pt-5">In my spare time, I enjoy baking and planting flowers, 
+    <p className ="pt-5 w-75">In my spare time, I enjoy baking and planting flowers, 
       as well as traveling and discovering new places. </p>
       </div>
     </>

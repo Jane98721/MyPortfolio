@@ -318,6 +318,9 @@
   .max-h-90 {
     max-height: calc(var(--spacing) * 90);
   }
+  .max-h-\[80vh\] {
+    max-height: 80vh;
+  }
   .max-h-\[90\] {
     max-height: 90;
   }
@@ -326,6 +329,9 @@
   }
   .w-20 {
     width: calc(var(--spacing) * 20);
+  }
+  .w-25 {
+    width: calc(var(--spacing) * 25);
   }
   .w-30 {
     width: calc(var(--spacing) * 30);

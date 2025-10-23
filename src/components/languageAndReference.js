@@ -2,7 +2,7 @@ function LanguageAndReference () {
   
   return (
   
-  <div className ="h-100 flex flex-col items-center justify-center"> 
+  <div className ="flex flex-col items-center justify-center"> 
     <div className ="mt-30 text-base">
       <h2 className ="text-3xl mb-3">Language</h2>
       <p>Swedish - Native</p>
