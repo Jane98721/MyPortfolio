@@ -55,7 +55,7 @@ return (
               </p>
               </div>
 
-              <ul className ="grid grid-cols-3 mt-5 ml-7 text-lg w-85">
+              <ul className ="grid grid-cols-3 mt-5 ml-5 text-lg w-85">
                 
                 <li>HTML{HTML}</li>
                 <li>CSS{CSS}</li>
