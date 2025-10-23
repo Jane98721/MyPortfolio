@@ -4,9 +4,9 @@ function Education () {
   <>
   
   <div className= "flex flex-col items-center justify-center">
-    <h1 className ="text-3xl text-center mt-30">Education</h1>
+    <h1 className ="text-3xl text-center mt-4">Education</h1>
     
-    <div className ="w-80">
+    <div className ="w-75">
       <h2 className ="text-xl text-center mt-5">Frontend Developer Specialization in Web 
         Security</h2>
       <p className ="text-xl text-center" >Jensens yrkeshögskola</p>
@@ -14,7 +14,7 @@ function Education () {
       </div>
       
       <div>
-        <h2 className ="text-xl text-center mt-11"> Bachelor of Science in Nursing 
+        <h2 className ="text-xl text-center mt-11 w-75"> Bachelor of Science in Nursing 
           and Medicine. 180 hp</h2>
         <p className ="text-xl text-center">Karolinska Institutet</p>
         <p className ="text-center text-base">January 2019 - January 2022</p>

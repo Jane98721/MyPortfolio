@@ -50,12 +50,12 @@ return (
              I am now eager to apply my knowledge and contribute to real-world projects
              </p>
              
-             <p className ="text-center font-bold mt-8 text-lg">
+             <p className ="text-center font-bold mt-5 text-lg">
               I have knowledge in
               </p>
               </div>
 
-              <ul className ="grid grid-cols-3 mt-5 ml-9 text-lg w-80">
+              <ul className ="grid grid-cols-3 mt-5 ml-9 text-lg w-85">
                 
                 <li>HTML{HTML}</li>
                 <li>CSS{CSS}</li>

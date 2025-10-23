@@ -10,7 +10,7 @@ function Header () {
 
         <p className ="text-sm font-bold 
         animate-typing animate-blink-caret tracking-wider whitespace-nowrap
-        overflow-hidden absolute mt-7
+        overflow-hidden absolute mt-7 ml-2
         sm:ml-28 sm:text-2xl
         md:text-3xl md:ml-50
         lg:text-3xl lg:ml-75

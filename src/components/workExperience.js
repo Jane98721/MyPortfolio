@@ -5,7 +5,7 @@ function WorkExperience () {
     
     <h1 className ="text-3xl">Work Experience</h1>
     
-    <div className= "border-b w-75 text-base">
+    <div className= "border-b w-70 text-base">
       <h2 className= "text-xl mt-4">2 complete- Office manager</h2>
       <p className= "text-small mb-3">June 2024-November 2024</p>
       <p className= "mb-2 font-bold">Responsibilities</p>
@@ -27,7 +27,7 @@ function WorkExperience () {
           </ul>
           </div>
           
-          <div className = "border-b text-base">
+          <div className = "border-b text-base w-80">
             <h2 className ="text-xl mt-5">Ad astra by Elite (Vana spa snäckviken) - Spa host</h2>
             <p> April 2024 – September 2024 </p>
             <p className ="mb-2 mt-2 font-bold" > Responsibilities </p>
