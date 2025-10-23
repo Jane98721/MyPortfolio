@@ -1,7 +1,7 @@
 function WorkExperience () {
   
   return (
-  <div className="scroll-auto flex flex-col items-center justify-center h-290">
+  <div className="flex flex-col items-center justify-center">
     
     <h1 className ="text-3xl">Work Experience</h1>
     
