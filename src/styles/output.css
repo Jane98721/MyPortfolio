@@ -213,9 +213,6 @@
   .z-50 {
     z-index: 50;
   }
-  .mt-1 {
-    margin-top: calc(var(--spacing) * 1);
-  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -245,9 +242,6 @@
   }
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
-  }
-  .mt-15 {
-    margin-top: calc(var(--spacing) * 15);
   }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
@@ -288,6 +282,9 @@
   .table {
     display: table;
   }
+  .h-1 {
+    height: calc(var(--spacing) * 1);
+  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
@@ -309,14 +306,17 @@
   .h-180 {
     height: calc(var(--spacing) * 180);
   }
+  .h-190 {
+    height: calc(var(--spacing) * 190);
+  }
   .h-200 {
     height: calc(var(--spacing) * 200);
   }
-  .h-240 {
-    height: calc(var(--spacing) * 240);
+  .h-280 {
+    height: calc(var(--spacing) * 280);
   }
-  .h-260 {
-    height: calc(var(--spacing) * 260);
+  .h-300 {
+    height: calc(var(--spacing) * 300);
   }
   .h-\[25vh\] {
     height: 25vh;
@@ -575,9 +575,29 @@
       display: grid;
     }
   }
+  .xl\:h-2 {
+    @media (width >= 1280px) {
+      height: calc(var(--spacing) * 2);
+    }
+  }
+  .xl\:h-20 {
+    @media (width >= 1280px) {
+      height: calc(var(--spacing) * 20);
+    }
+  }
+  .xl\:h-200 {
+    @media (width >= 1280px) {
+      height: calc(var(--spacing) * 200);
+    }
+  }
   .xl\:h-235 {
     @media (width >= 1280px) {
       height: calc(var(--spacing) * 235);
+    }
+  }
+  .xl\:h-240 {
+    @media (width >= 1280px) {
+      height: calc(var(--spacing) * 240);
     }
   }
   .xl\:grid-rows-1 {

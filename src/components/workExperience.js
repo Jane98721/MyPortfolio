@@ -1,14 +1,14 @@
 function WorkExperience () {
   
   return (
-  <div className="scroll-auto flex flex-col items-center justify-center h-260">
+  <div className="scroll-auto flex flex-col items-center justify-center">
     
-    <h1 className ="text-3xl mt-4">Work Experience</h1>
+    <h1 className ="text-3xl">Work Experience</h1>
     
-    <div className = "border-b w-75 text-base">
-      <h2 className ="text-xl mt-4">2 complete- Office manager</h2>
-      <p className ="text-small mb-3">June 2024-November 2024</p>
-      <p className ="mb-2 font-bold">Responsibilities</p>
+    <div className= "border-b w-75 text-base">
+      <h2 className= "text-xl mt-4">2 complete- Office manager</h2>
+      <p className= "text-small mb-3">June 2024-November 2024</p>
+      <p className= "mb-2 font-bold">Responsibilities</p>
       
       <ul>
         <li>- Writing monthly reports</li>
