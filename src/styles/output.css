@@ -282,9 +282,6 @@
   .table {
     display: table;
   }
-  .h-1 {
-    height: calc(var(--spacing) * 1);
-  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
@@ -303,14 +300,17 @@
   .h-150 {
     height: calc(var(--spacing) * 150);
   }
-  .h-180 {
-    height: calc(var(--spacing) * 180);
-  }
   .h-190 {
     height: calc(var(--spacing) * 190);
   }
   .h-200 {
     height: calc(var(--spacing) * 200);
+  }
+  .h-210 {
+    height: calc(var(--spacing) * 210);
+  }
+  .h-250 {
+    height: calc(var(--spacing) * 250);
   }
   .h-280 {
     height: calc(var(--spacing) * 280);
@@ -575,29 +575,9 @@
       display: grid;
     }
   }
-  .xl\:h-2 {
-    @media (width >= 1280px) {
-      height: calc(var(--spacing) * 2);
-    }
-  }
-  .xl\:h-20 {
-    @media (width >= 1280px) {
-      height: calc(var(--spacing) * 20);
-    }
-  }
-  .xl\:h-200 {
-    @media (width >= 1280px) {
-      height: calc(var(--spacing) * 200);
-    }
-  }
   .xl\:h-235 {
     @media (width >= 1280px) {
       height: calc(var(--spacing) * 235);
-    }
-  }
-  .xl\:h-240 {
-    @media (width >= 1280px) {
-      height: calc(var(--spacing) * 240);
     }
   }
   .xl\:grid-rows-1 {
