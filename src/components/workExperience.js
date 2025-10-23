@@ -1,7 +1,7 @@
 function WorkExperience () {
   
   return (
-  <div>
+  <div className="scroll-auto">
     <h1 className ="text-3xl">Work Experience</h1>
     
     <div className = "border-b">
