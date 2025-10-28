@@ -1,9 +1,7 @@
 import { useRef } from 'react'
 import emailjs from "emailjs-com"
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function ContactForm ({goBack}) {
+function ContactForm () {
   const form = useRef()
   
   const sendEmail = (e) => {
