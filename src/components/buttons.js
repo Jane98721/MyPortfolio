@@ -40,8 +40,8 @@ function Buttons ({goBack}) {
       mt-33 ml-4
       md:w-75 md:h-120 md:mt-44 md:ml-15
       lg:w-80 lg:h-130 lg:mt-42 lg:ml-42
-      xl:w-90 xl:h-140 xl:mt-33 xl:ml-94
-      2xl:w-110 2xl:h-155 2xl:ml-120 ">
+      xl:w-90 xl:h-140 xl:mt-20 xl:ml-94
+      2xl:w-110 2xl:h-155 2xl:mt-30 2xl:ml-120 ">
         
         <div className ="flex flex-col text-center">
           <p className ="font-bold text-xs mt-2 ml-2
@@ -106,8 +106,8 @@ function Buttons ({goBack}) {
         <div className ="absolute border-2 mt-95 ml-4
         md:mt-44 md:ml-102
         lg:mt-42 lg:ml-135
-        xl:mt-33 xl:ml-200
-        2xl:ml-250
+        xl:mt-20 xl:ml-200
+        2xl:mt-30 2xl:ml-248 
          "> 
          <ContactForm/>
          </div>
@@ -115,7 +115,7 @@ function Buttons ({goBack}) {
          <div className ="text-3xl absolute mt-167 ml-36 
          md:mt-170 md:ml-90
          lg:mt-173 lg:ml-123
-         xl:mt-177 xl:ml-186
+         xl:mt-165 xl:ml-186
          2xl:mt-200 2xl:ml-230 2xl:text-5xl
          ">
           <button onClick ={goBack} className ="animate-bounce hover:cursor-pointer">

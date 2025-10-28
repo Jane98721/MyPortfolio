@@ -43,8 +43,8 @@ function MainInfo ({goBack, goToNext}) {
        mt-32 ml-4 border-2
        md:w-75 md:h-113 md:left-11 md:mt-44
        lg:w-88 lg:h-125 lg:left-33 lg:mt-40
-       xl:w-95 xl:h-140 xl:left-87 xl:mt-32
-       2xl:w-115 2xl:h-160 2xl:left-115" >
+       xl:w-95 xl:h-140 xl:left-87 xl:mt-20
+       2xl:w-115 2xl:h-160 2xl:mt-34 2xl:left-115" >
         
         <div className ="flex flex-col items-center">
            <img src ="Bild.jpg" alt="Bild på mig" 
@@ -106,8 +106,8 @@ function MainInfo ({goBack, goToNext}) {
               left-[230px] text-xl
               md:left-[540px] md:top-[670px] md:text-3xl
               lg:left-[700px] lg:top-[680px] 
-              xl:left-[960px] xl:top-[700px]
-              2xl:left-[1170px] 2xl:top-[810px] 2xl:text-5xl" 
+              xl:left-[960px] xl:top-[660px]
+              2xl:left-[1170px] 2xl:top-[805px] 2xl:text-5xl" 
               onClick ={goToNext}>
                 {arrowRight}
                 </button>
@@ -116,8 +116,8 @@ function MainInfo ({goBack, goToNext}) {
                 absolute top-[720px] left-[70px]
                 md:left-[170px] md:top-[670px] md:text-3xl
                 lg:left-[290px] lg:top-[680px] 
-                xl:left-[540px] xl:top-[700px]
-                2xl:left-[690px] 2xl:top-[810px] 2xl:text-5xl">
+                xl:left-[540px] xl:top-[660px]
+                2xl:left-[690px] 2xl:top-[805px] 2xl:text-5xl">
                   {arrowLeft}
                 </button>
               </div> 

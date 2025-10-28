@@ -45,17 +45,19 @@ const MyProjects = () => {
               <p className ="text-xs hover:cursor-pointer hover:text-lg mb-2
               md:text-sm
               lg:text-base
-              2xl:text-lg 2xl:hover:text-2xl"><a 
-               href ="https://github.com/Jane98721/Portal-frontend.git">
-                </a>You can view the frontend code <span className ="underline">here</span>
+              2xl:text-lg 2xl:hover:text-2xl">
+                You can view the frontend code 
+                <a href ="https://github.com/Jane98721/Portal-frontend.git">
+                <span className ="underline"> here</span></a>
                 </p>
                 
                 <p className ="text-xs hover:cursor-pointer hover:text-lg
                 md:text-sm
                 xl:text-base
-                2xl:text-lg 2xl:hover:text-2xl"><a 
-                href ="https://github.com/Jane98721/Portal-backend.git">
-                  </a>You can view the backend code <span className ="underline" >here</span>
+                2xl:text-lg 2xl:hover:text-2xl">
+                  You can view the backend code 
+                  <a href ="https://github.com/Jane98721/Portal-backend.git">
+                  <span className ="underline" > here</span></a>
                   </p>
           </div>
         </div>
