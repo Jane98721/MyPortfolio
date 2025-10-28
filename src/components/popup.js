@@ -9,7 +9,7 @@ function Popup ({ show, onClose, children}) {
     <div className ="relative w-150 max-h-[80vh] border-2 z-10 bg-white overflow-y-auto ">
       {children}
       <button className ="border-2 text-lg w-25 mb-3 mt-10 hover:cursor-pointer" 
-      onClick= {onClose} > Stäng </button>
+      onClick= {onClose} > Close </button>
       </div>
     </div>
   )
