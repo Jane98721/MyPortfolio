@@ -28,7 +28,8 @@ function ContactForm () {
 
   return (
     
-    <div className ="bg-gray-200 h-66 w-71
+    <div className ="bg-gray-200 h-66 w-84
+    sm:w-70 sm:h-119 
     md:w-75 md:h-120
     lg:w-80 lg:h-130
     xl:w-90 xl:h-140
@@ -36,6 +37,7 @@ function ContactForm () {
       
       <div className ="text-center font-bold">
         <h1 className ="mb-2 pt-2 text-xs
+        sm:text-base
         md:text-lg
         lg:text-xl lg:pt-4
         xl:text-2xl">
@@ -43,6 +45,7 @@ function ContactForm () {
           </h1>
           
           <h2 className ="text-xs
+          sm:text-base
           md:text-lg
           xl:mb-3
           2xl:text-xl">
@@ -50,6 +53,7 @@ function ContactForm () {
             </h2>
             
             <form ref = {form} onSubmit={sendEmail} className ="flex flex-col items-center gap-2
+            sm:gap-4
             md:gap-3
             lg:gap-4
             xl:gap-5
@@ -60,7 +64,7 @@ function ContactForm () {
               name ="name"
               required
               className ="border-2 w-65 h-6 mt-2 pl-2 bg-white
-              md:w-68 md:h-10
+              sm:h-10
               lg:w-70 
               xl:w-75 xl:h-10
               2xl:w-105"
@@ -72,7 +76,7 @@ function ContactForm () {
               name ="email"
               required
               className ="border-2 w-65 h-6 pl-2 bg-white
-              md:w-68 md:h-10
+              sm:h-10
               lg:w-70 
               xl:w-75 xl:h-10
               2xl:w-105" 
@@ -84,7 +88,7 @@ function ContactForm () {
               name ="title"
               required
               className ="border-2 w-65 h-6 pl-2 bg-white
-              md:w-68 md:h-10
+              sm:h-10
               lg:w-70 
               xl:w-75 xl:h-10
               2xl:w-105"
@@ -96,7 +100,7 @@ function ContactForm () {
               name ="message"
               required
               className ="border-2 w-65 h-10 pl-2 pt-2 bg-white
-              md:w-68 md:h-28
+              sm:h-28
               lg:w-70 lg:h-25 
               xl:h-40 xl:w-75
               2xl:w-105 2xl:h-50" 
@@ -104,6 +108,7 @@ function ContactForm () {
               
               <button
               className ="border-2 text-xs hover:cursor-pointer mt-2 hover:bg-gray-300 h-8 w-15 bg-white
+              sm:w-20 sm:h-9 sm:text-sm
               md:w-25 md:h-10 md:text-base md:mt-3
               lg:w-25 lg:text-lg   
               xl:text-xl xl:w-38 xl:mt-2 xl:h-9

@@ -17,6 +17,7 @@ return (
     
     <div>
       <p className ="absolute top-120 left-18 font-bold rotate-5
+      sm:left-58 sm:text-lg
       md:left-75 md:top-110 md:text-lg
       lg:left-104 lg:top-110 lg:text-2xl
       xl:left-158 xl:top-60 xl:text-3xl 
@@ -26,6 +27,7 @@ return (
         
         <p className ="text-xs top-130 left-10 font-bold rotate-5 overflow-hidden absolute 
         animate-typing animate-blink-caret tracking-wider whitespace-nowrap
+        sm:left-47 sm:text-sm
         md:left-68 md:top-125
         lg:left-101 lg:top-125 lg:text-sm
         xl:left-147 xl:top-85 xl:text-xl 
@@ -36,6 +38,7 @@ return (
         <button onClick = {goToNext}
         className ="hover:cursor-pointer animate-bounce absolute text-4xl
         top-140 left-35
+        sm:left-75
         md:left-92 md:top-140
         lg:left-130 lg:top-140
         xl:left-190 xl:top-110 xl:text-5xl

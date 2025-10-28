@@ -2,9 +2,10 @@ const MyProjects = () => {
   
   return ( 
   <>
-  <div className='bg-gray-200 w-72 h-72 border-2
-  md:w-75 md:h-113
-  lg:w-88 lg:h-125
+  <div className='bg-gray-200 w-85 h-72 border-2
+  sm:w-70 sm:h-120 sm:border-1
+  md:w-75 md:h-120
+  lg:w-85 lg:h-120
   xl:w-95 xl:h-139
   2xl:w-115 2xl:h-160'>
     
@@ -14,36 +15,40 @@ const MyProjects = () => {
       My projects
       </h1>
       
-      <div className ="flex flex-col items-center justify-center">
+      <div className ="flex flex-col items-center justify-center gap-5">
         <img src ="portal-projekt.png" alt="bild på portal projekt" 
          className=" w-43 h-20
+          sm:w-60 sm:h-35
           md:w-60 md:h-35 
           lg:w-65 lg:h-40
           xl:w-80 xl:h-50"/>
-          
-          <p className ="font-bold text-center mt-2 text-xs
+        
+        <div className ="flex flex-col text-center gap-2">
+          <p className ="font-bold text-xs
+          sm:text-sm
           md:text-base
-          lg:mt-5
           xl:text-lg
-          2xl:text-xl 2xl:mt-10">
+          2xl:text-xl">
             Portal 
             </p>
             
-            <p className ="text-xs ml-2 mr-2
-            md:text-sm md:ml-3
-            xl:text-base xl:text-center
+            <p className ="text-xs
+            sm:text-sm
+            md:m-1 
+            xl:text-base
             2xl:text-lg">
               The frontend is developed with React and styled using Tailwind CSS, while
               the backend is implemented with Express - Node.js
               </p>
               
-              <p className ="font-bold mt-3 mb-3 text-xs
+              <p className ="font-bold text-xs
+              sm:text-sm
               md:text-base
               xl:text-lg
               2xl:text-xl">Links to Github</p>
               
-              <p className ="text-xs hover:cursor-pointer hover:text-lg mb-2
-              md:text-sm
+              <p className ="text-xs hover:cursor-pointer hover:text-lg
+              sm:text-sm
               lg:text-base
               2xl:text-lg 2xl:hover:text-2xl">
                 You can view the frontend code 
@@ -52,8 +57,8 @@ const MyProjects = () => {
                 </p>
                 
                 <p className ="text-xs hover:cursor-pointer hover:text-lg
-                md:text-sm
-                xl:text-base
+                sm:text-sm
+                lg:text-base
                 2xl:text-lg 2xl:hover:text-2xl">
                   You can view the backend code 
                   <a href ="https://github.com/Jane98721/Portal-backend.git">
@@ -61,6 +66,7 @@ const MyProjects = () => {
                   </p>
           </div>
         </div>
+      </div>
       </>
     )
   }

@@ -36,36 +36,36 @@ function Buttons ({goBack}) {
       src="Book pages.jpg" alt="bild på dator"/>
       </div>
       
-      <div className ="flex flex-col bg-gray-200 absolute w-72 h-62 border-2
-      mt-33 ml-4
-      md:w-75 md:h-120 md:mt-44 md:ml-15
-      lg:w-80 lg:h-130 lg:mt-42 lg:ml-42
-      xl:w-90 xl:h-140 xl:mt-20 xl:ml-94
-      2xl:w-110 2xl:h-155 2xl:mt-30 2xl:ml-120 ">
-        
-        <div className ="flex flex-col text-center">
-          <p className ="font-bold text-xs mt-2 ml-2
-          md:text-lg md:mt-3
-          lg:mt-4
+      <div className ="flex flex-col items-center sm:items-start">
+        <div className ="bg-gray-200 absolute w-85 h-62 border-2 mt-40
+        sm:w-70 sm:h-120 sm:ml-8 
+        md:w-75 md:h-120 md:mt-44 md:ml-15
+        lg:w-80 lg:h-130 lg:mt-42 lg:ml-42
+        xl:w-90 xl:h-140 xl:mt-20 xl:ml-94
+        2xl:w-110 2xl:h-155 2xl:mt-30 2xl:ml-120 ">
+          
+          <div className ="flex flex-col text-center mt-2 gap-4">
+          <p className ="font-bold text-xs
+          sm:text-base
+          md:text-lg 
           xl:text-xl"> 
           Click on the buttons below to get to know me better
           </p>
            
-           <p className ="animate-bounce text-center mt-3 
-           md:text-3xl md:mt-5
-           lg:mt-5
-           xl:mt-8
-           2xl:mt-10">
+           <p className ="animate-bounce text-center
+           sm:text-xl 
+           md:text-3xl">
             {arrow}
             </p>
             
-            <div className ="flex flex-col items-center justify-center mt-2 gap-2
-            lg:mt-5
-            xl:mt-8 xl:gap-4 xl:text-xl
+            <div className ="flex flex-col items-center justify-center gap-2
+            sm:gap-3
+            xl:gap-4 xl:text-xl
             2xl:gap-5">
               
               <button 
               className ="border-2 w-40 text-xs p-1 bg-white hover:cursor-pointer hover:bg-gray-300
+              sm:w-50 sm:h-10 sm:text-sm
               md:w-50 md:text-base md:h-15
               lg:text-xl lg:w-60
               xl:w-75 xl:h-15 
@@ -74,7 +74,8 @@ function Buttons ({goBack}) {
               </button> 
               
               <button 
-              className ="border-2 w-40 text-xs p-1 bg-white hover:cursor-pointer hover:bg-gray-300 
+              className ="border-2 w-40 text-xs p-1 bg-white hover:cursor-pointer hover:bg-gray-300
+              sm:w-50 sm:h-10 sm:text-sm 
               md:w-50 md:text-base md:h-15
               lg:text-xl lg:w-60
               xl:w-75 xl:h-15 
@@ -84,6 +85,7 @@ function Buttons ({goBack}) {
               
               <button 
               className ="border-2 w-40 text-xs p-1 bg-white hover:cursor-pointer hover:bg-gray-300
+              sm:w-50 sm:h-10 sm:text-sm
               md:w-50 md:text-base md:h-15
               lg:text-xl lg:w-60
               xl:w-75 xl:h-15
@@ -93,6 +95,7 @@ function Buttons ({goBack}) {
                
               <button 
               className ="border-2 w-40 text-xs p-1 bg-white hover:cursor-pointer hover:bg-gray-300
+              sm:w-50 sm:h-10 sm:text-sm
               md:w-50 md:text-base md:h-15
               lg:text-xl lg:w-60
               xl:w-75 xl:h-15
@@ -101,9 +104,10 @@ function Buttons ({goBack}) {
                </button>
             </div>
           </div>
-        </div> 
+          </div>
         
-        <div className ="absolute border-2 mt-95 ml-4
+        <div className ="absolute border-2 mt-102
+        sm:mt-40 sm:ml-82
         md:mt-44 md:ml-102
         lg:mt-42 lg:ml-135
         xl:mt-20 xl:ml-200
@@ -111,8 +115,10 @@ function Buttons ({goBack}) {
          "> 
          <ContactForm/>
          </div>
-         
-         <div className ="text-3xl absolute mt-167 ml-36 
+       </div>
+
+         <div className ="text-3xl absolute mt-170 ml-43
+         sm:mt-165 sm:ml-76 
          md:mt-170 md:ml-90
          lg:mt-173 lg:ml-123
          xl:mt-165 xl:ml-186
