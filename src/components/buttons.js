@@ -37,7 +37,7 @@ function Buttons ({goBack}) {
       </div>
       
       <div className ="flex flex-col items-center sm:items-start">
-        <div className ="bg-gray-200 absolute w-85 h-62 border-2 mt-40
+        <div className ="bg-gray-200 absolute w-[90%] h-62 border-2 mt-38
         sm:w-70 sm:h-120 sm:ml-8 
         md:w-75 md:h-120 md:mt-44 md:ml-15
         lg:w-80 lg:h-130 lg:mt-42 lg:ml-42
@@ -106,7 +106,7 @@ function Buttons ({goBack}) {
           </div>
           </div>
         
-        <div className ="absolute border-2 mt-102
+        <div className ="absolute border-2 mt-100
         sm:mt-40 sm:ml-82
         md:mt-44 md:ml-102
         lg:mt-42 lg:ml-135
@@ -117,7 +117,7 @@ function Buttons ({goBack}) {
          </div>
        </div>
 
-         <div className ="text-3xl absolute mt-170 ml-43
+         <div className ="text-3xl absolute mt-168 ml-36
          sm:mt-165 sm:ml-76 
          md:mt-170 md:ml-90
          lg:mt-173 lg:ml-123

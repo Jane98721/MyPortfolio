@@ -2,7 +2,7 @@ const MyProjects = () => {
   
   return ( 
   <>
-  <div className='bg-gray-200 w-85 h-72 border-2
+  <div className='bg-gray-200 w-[96%] border-1
   sm:w-70 sm:h-120 sm:border-1
   md:w-75 md:h-120
   lg:w-85 lg:h-120
@@ -17,7 +17,7 @@ const MyProjects = () => {
       
       <div className ="flex flex-col items-center justify-center gap-5">
         <img src ="portal-projekt.png" alt="bild på portal projekt" 
-         className=" w-43 h-20
+         className="w-38
           sm:w-60 sm:h-35
           md:w-60 md:h-35 
           lg:w-65 lg:h-40
@@ -32,7 +32,7 @@ const MyProjects = () => {
             Portal 
             </p>
             
-            <p className ="text-xs
+            <p className ="text-xs max-w-75
             sm:text-sm
             md:m-1 
             xl:text-base
@@ -56,7 +56,7 @@ const MyProjects = () => {
                 <span className ="underline"> here</span></a>
                 </p>
                 
-                <p className ="text-xs hover:cursor-pointer hover:text-lg
+                <p className ="text-xs hover:cursor-pointer hover:text-lg mb-3
                 sm:text-sm
                 lg:text-base
                 2xl:text-lg 2xl:hover:text-2xl">

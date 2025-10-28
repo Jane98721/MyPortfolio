@@ -41,8 +41,8 @@ function MainInfo ({goBack, goToNext}) {
       </div>
       
       <div className="flex flex-col items-center sm:items-start ">
-      <div className ="bg-gray-200 absolute w-85 h-65
-       mt-32 border-2
+      <div className ="bg-gray-200 absolute w-[90%]
+       mt-24 border-1
        sm:w-70 sm:h-120 sm:top-8 sm:ml-8 sm:border-1
        md:w-75 md:h-120 md:left-7 md:mt-35
        lg:w-85 lg:h-120 lg:left-33 lg:mt-35
@@ -51,7 +51,7 @@ function MainInfo ({goBack, goToNext}) {
         
         <div className ="flex flex-col items-center gap-3">
            <img src ="Bild.jpg" alt="Bild på mig" 
-           className ="w-12 mt-2 rounded-2xl
+           className ="w-10 mt-2 rounded-2xl
            sm:w-20
            md:w-22
            lg:w-26 
@@ -59,7 +59,7 @@ function MainInfo ({goBack, goToNext}) {
            2xl:w-[170px]"
            />
            
-           <div className ="flex flex-col text-center gap-6">
+           <div className ="flex flex-col text-center gap-3">
             <p className='text-xs font-bold
             sm:text-sm  
             md:text-base
@@ -82,7 +82,7 @@ function MainInfo ({goBack, goToNext}) {
                   I have knowledge in
                   </p>
                   
-                  <ul className ="grid grid-cols-3 text-xs
+                  <ul className ="grid grid-cols-3 text-xs mb-2
                   sm:text-sm 
                   md:text-sm
                   xl:text-base">
@@ -100,7 +100,7 @@ function MainInfo ({goBack, goToNext}) {
                   </div>
                 </div>
               </div>
-                <div className ="absolute mt-97
+                <div className ="absolute mt-93 ml-3
                 sm:mt-40 sm:ml-83
                 md:ml-103 md:mt-43
                 lg:ml-134 lg:mt-43

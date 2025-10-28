@@ -27,16 +27,18 @@ function ContactForm () {
   }
 
   return (
-    
-    <div className ="bg-gray-200 h-66 w-84
+  
+  <div className="flex flex-col"> 
+  <div className ="bg-gray-200
+    w-71
     sm:w-70 sm:h-119 
     md:w-75 md:h-120
     lg:w-80 lg:h-130
     xl:w-90 xl:h-140
-    2xl:w-110 2xl:h-155">
-      
-      <div className ="text-center font-bold">
-        <h1 className ="mb-2 pt-2 text-xs
+    2xl:w-110 2xl:h-155"> 
+    
+    <div className ="text-center font-bold">
+      <h1 className ="mb-2 pt-2 text-xs
         sm:text-base
         md:text-lg
         lg:text-xl lg:pt-4
@@ -51,19 +53,22 @@ function ContactForm () {
           2xl:text-xl">
             To contact me please fill out this form 
             </h2>
+            </div>
             
-            <form ref = {form} onSubmit={sendEmail} className ="flex flex-col items-center gap-2
+          <div className ="">
+            <form ref = {form} onSubmit={sendEmail} className ="flex flex-col items-center gap-2 
             sm:gap-4
             md:gap-3
             lg:gap-4
             xl:gap-5
             2xl:gap-6">
+              
               <input 
               type ="text"
               placeholder="Name"
               name ="name"
               required
-              className ="border-2 w-65 h-6 mt-2 pl-2 bg-white
+              className ="border-2 w-60 h-6 mt-2 pl-2 bg-white
               sm:h-10
               lg:w-70 
               xl:w-75 xl:h-10
@@ -75,7 +80,7 @@ function ContactForm () {
               placeholder ="E-mail"
               name ="email"
               required
-              className ="border-2 w-65 h-6 pl-2 bg-white
+              className ="border-2 w-60 h-6 pl-2 bg-white
               sm:h-10
               lg:w-70 
               xl:w-75 xl:h-10
@@ -87,7 +92,7 @@ function ContactForm () {
               placeholder ="Subject"
               name ="title"
               required
-              className ="border-2 w-65 h-6 pl-2 bg-white
+              className ="border-2 w-60 h-6 pl-2 bg-white
               sm:h-10
               lg:w-70 
               xl:w-75 xl:h-10
@@ -99,7 +104,7 @@ function ContactForm () {
               placeholder ="Message"
               name ="message"
               required
-              className ="border-2 w-65 h-10 pl-2 pt-2 bg-white
+              className ="border-2 w-60 h-10 pl-2 pt-2 bg-white
               sm:h-28
               lg:w-70 lg:h-25 
               xl:h-40 xl:w-75
@@ -107,7 +112,7 @@ function ContactForm () {
               />
               
               <button
-              className ="border-2 text-xs hover:cursor-pointer mt-2 hover:bg-gray-300 h-8 w-15 bg-white
+              className ="border-2 text-xs hover:cursor-pointer mt-2 mb-3 hover:bg-gray-300 h-8 w-15 bg-white
               sm:w-20 sm:h-9 sm:text-sm
               md:w-25 md:h-10 md:text-base md:mt-3
               lg:w-25 lg:text-lg   
@@ -118,6 +123,7 @@ function ContactForm () {
               </form>
             </div>
           </div>
+        </div>
       )
     }
 
