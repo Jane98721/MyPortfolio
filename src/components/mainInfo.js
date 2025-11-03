@@ -9,7 +9,8 @@ import { faA } from '@fortawesome/free-solid-svg-icons/faA'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons/faDatabase'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import MyProjects from './myProjects'
-import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import GoToRightBtn from './goToRightBtn'
+import GotoLeftBtn from './goToLeftBtn'
 
 const HTML = <FontAwesomeIcon icon={faHtml5} />
 const CSS = <FontAwesomeIcon icon={faCss} />
@@ -20,11 +21,9 @@ const B = <FontAwesomeIcon icon={faB} />
 const A = <FontAwesomeIcon icon={faA} />
 const Database = <FontAwesomeIcon icon={faDatabase} />
 const Github = <FontAwesomeIcon icon={faGithub} />
-const arrowRight = <FontAwesomeIcon icon={faArrowRight} />
-const arrowLeft = <FontAwesomeIcon icon={faArrowLeft} />
 
 
-function MainInfo ({goBack, goToNext}) {
+function MainInfo ({goToNext, goBack}) {
   
   return (
   <>
@@ -42,7 +41,7 @@ function MainInfo ({goBack, goToNext}) {
       
       <div className="flex flex-col items-center sm:items-start ">
       <div className ="bg-gray-200 absolute w-[90%]
-       mt-24 border-1
+       mt-18 border-1
        sm:w-70 sm:h-120 sm:top-8 sm:ml-8 sm:border-1
        md:w-75 md:h-120 md:left-7 md:mt-35
        lg:w-85 lg:h-120 lg:left-33 lg:mt-35
@@ -104,27 +103,16 @@ function MainInfo ({goBack, goToNext}) {
                   <MyProjects/>
                   </div>
              </div>
-              
-              <button className ="hover:cursor-pointer animate-bounce absolute top-[680px] 
-              left-[260px] text-xl
-              sm:left-[460px] sm:top-[670px] 
-              md:left-[540px] md:top-[670px] md:text-3xl
-              lg:left-[700px] lg:top-[680px] 
-              xl:left-[960px] xl:top-[660px]
-              2xl:left-[1170px] 2xl:top-[805px] 2xl:text-5xl" 
-              onClick ={goToNext}>
-                {arrowRight}
-                </button>
-                
-                <button onClick ={goBack} className ="text-xl animate-bounce hover:cursor-pointer 
-                absolute top-[680px] left-[90px]
-                sm:left-[140px] sm:top-[670px] 
-                md:left-[170px] md:top-[670px] md:text-3xl
-                lg:left-[290px] lg:top-[680px] 
-                xl:left-[540px] xl:top-[660px]
-                2xl:left-[690px] 2xl:top-[805px] 2xl:text-5xl">
-                  {arrowLeft}
-                </button>
+
+              <div>
+                <GoToRightBtn goToNext={goToNext}/>
+                </div>
+
+                <div>
+                  <GotoLeftBtn goBack={goBack}/>
+                </div>
+             
+               
               </div> 
              </>
             )

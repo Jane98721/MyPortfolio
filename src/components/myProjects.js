@@ -3,7 +3,7 @@ const MyProjects = () => {
   return ( 
   <>
   <div className="flex flex-col items-center">
-  <div className='absolute bg-gray-200 w-[90%] border-1 mt-93
+  <div className='absolute bg-gray-200 w-[90%] border-1 mt-83
   sm:w-70 sm:h-120 sm:border-1 sm:mt-40 sm:ml-83                
   md:w-75 md:h-120 md:ml-281 md:mt-43
   lg:w-85 lg:h-120 lg:ml-350 lg:mt-43

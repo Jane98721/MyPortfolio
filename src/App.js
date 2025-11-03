@@ -1,6 +1,8 @@
 import MainInfo from './components/mainInfo';
 import ContactForm from './components/contactForm';
 import Buttons from './components/buttons'
+import GoToRightBtn from './components/goToRightBtn';
+import GotoLeftBtn from './components/goToLeftBtn';
 
 import Header from './components/header'
 import {useState} from 'react'
