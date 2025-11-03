@@ -33,25 +33,25 @@ function MainInfo ({goToNext, goBack}) {
       <img className="w-[100%] h-screen object-cover object-[50%]
       absolute scale-90 transform transition-transform duration-700
       sm:w-[100%] sm:h-screen sm:object-cover sm:object-[50%]
-      md:w-[100%] md:h-[900px] md:object-cover md:object-[52%_9%] md:scale-86
-      xl:w-[1280px] xl:h-[100%] xl:scale-90 xl:left-30 xl:object-cover xl:object-[50%_40%]
-      2xl:h-[900px] 2xl:w-[80%] 2xl:left-45 2xl:top-7"
+      md:w-[100%] md:h-[900px] md:object-cover md:object-[] md:scale-75
+      xl:w-[1280px] xl:h-[790px] xl:scale-85 xl:left-30 xl:object-cover xl:object-[50%_40%] 
+      2xl:h-[925px] 2xl:w-[80%] 2xl:left-45 2xl:top-7"
       src="Book pages.jpg" alt="bild på dator"/>
       </div>
       
       <div className="flex flex-col items-center sm:items-start ">
       <div className ="bg-gray-200 absolute w-[90%]
        mt-13 border-1
-       sm:w-70 sm:h-120 sm:top-8 sm:ml-8 sm:border-1
-       md:w-75 md:h-120 md:left-7 md:mt-35
-       lg:w-85 lg:h-120 lg:left-33 lg:mt-35
-       xl:w-95 xl:h-139 xl:left-84 xl:mt-13
-       2xl:w-115 2xl:h-160 2xl:mt-26 2xl:left-110" >
+       sm:w-60 sm:h-95 sm:top-15 sm:ml-16 sm:border-1
+       md:w-64 md:h-110 md:left-11 md:mt-35
+       lg:w-75 lg:h-110 lg:left-35 lg:mt-37
+       xl:w-90 xl:h-130 xl:left-82 xl:mt-15
+       2xl:w-100 2xl:h-150 2xl:mt-26 2xl:left-113" >
         
         <div className ="flex flex-col items-center gap-3">
            <img src ="Bild.jpg" alt="Bild på mig" 
            className ="w-10 mt-2 rounded-2xl
-           sm:w-20
+           sm:w-17
            md:w-22
            lg:w-26 
            xl:w-29 
@@ -59,15 +59,13 @@ function MainInfo ({goToNext, goBack}) {
            />
            
            <div className ="flex flex-col text-center gap-3">
-            <p className='text-xs font-bold
-            sm:text-sm  
+            <p className='text-xs font-bold 
             md:text-base
             xl:text-lg xl:m-1'>
               Junior Frontend Developer and ready for my first assignment!
               </p>
               
-              <p className ="text-xs
-              sm:text-sm
+              <p className ="text-xs m-1
               md:text-sm
               xl:text-base">
                 To maintain and further develop my skills. I build my own projects in my spare time.
@@ -75,14 +73,12 @@ function MainInfo ({goToNext, goBack}) {
                 </p>
                 
                 <p className ="font-bold text-xs
-                sm:text-sm
                 md:text-sm
                 xl:text-lg">
                   I have knowledge in
                   </p>
                   
-                  <ul className ="grid grid-cols-3 text-xs mb-2
-                  sm:text-sm 
+                  <ul className ="grid grid-cols-3 text-xs mb-2 
                   md:text-sm
                   xl:text-base">
                     

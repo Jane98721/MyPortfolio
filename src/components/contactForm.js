@@ -30,11 +30,11 @@ function ContactForm () {
   
   <div className="flex flex-col items-center sm:items-start"> 
   <div className ="bg-gray-200 absolute border-2 w-[90%] h-62 mt-87 
-    sm:w-70 sm:h-119 sm:mt-40 sm:ml-82     
-    md:w-75 md:h-120 md:mt-44 md:ml-103
-    lg:w-80 lg:h-130 lg:mt-42 lg:ml-135
-    xl:w-90 xl:h-140 xl:mt-20 xl:ml-200
-    2xl:w-110 2xl:h-155 2xl:mt-30 2xl:ml-248 "> 
+    sm:w-65 sm:h-95 sm:mt-28 sm:ml-85     
+    md:w-68 md:h-110 md:mt-50 md:ml-100
+    lg:w-70 lg:h-110 lg:mt-54 lg:ml-137
+    xl:w-90 xl:h-130 xl:mt-28 xl:ml-196
+    2xl:w-100 2xl:h-145 2xl:mt-40 2xl:ml-247 "> 
     
     <div className ="flex flex-col items-center font-bold gap-2
     lg:gap-4">
@@ -47,7 +47,6 @@ function ContactForm () {
           </h1>
           
           <h2 className ="text-xs
-          sm:text-base
           2xl:text-xl">
             To contact me please fill out this form 
             </h2>
@@ -56,7 +55,6 @@ function ContactForm () {
           <div className ="flex flex-col">
 
             <form ref = {form} onSubmit={sendEmail} className="flex flex-col items-center gap-2  
-            sm:gap-4
             md:gap-3
             lg:gap-4
             xl:gap-5
@@ -68,7 +66,7 @@ function ContactForm () {
               name ="name"
               required
               className ="border-2 h-6 mt-2 pl-2 bg-white w-[95%]
-              sm:h-10
+              sm:h-8
               xl:xl:h-10"
               />
               
@@ -78,7 +76,7 @@ function ContactForm () {
               name ="email"
               required
               className ="border-2 h-6 pl-2 bg-white w-[95%]
-              sm:h-10
+              sm:h-8
               xl:h-10" 
               />
               
@@ -88,7 +86,7 @@ function ContactForm () {
               name ="title"
               required
               className ="border-2 h-6 pl-2 bg-white w-[95%]
-              sm:h-10 
+              sm:h-8 
               xl:h-10"
               />
               
@@ -98,7 +96,7 @@ function ContactForm () {
               name ="message"
               required
               className ="border-2 h-10 pl-2 pt-2 bg-white w-[95%]
-              sm:h-28
+              sm:h-26
               g:h-25 
               xl:h-40 
               2xl:h-50" 

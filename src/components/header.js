@@ -16,7 +16,7 @@ return (
     src="book.jpg" alt="bild på bok"/>
     
     <div>
-      <p className ="absolute top-85 left-33 font-bold rotate-5
+      <p className ="absolute top-85 left-29 font-bold rotate-5
       sm:left-58 sm:text-lg
       md:left-75 md:top-90 md:text-lg
       lg:left-101 lg:top-70 lg:text-2xl
@@ -25,9 +25,9 @@ return (
         Welcome to my portfolio
         </p>
         
-        <p className ="text-xs top-100 left-26 rotate-5 overflow-hidden absolute 
+        <p className ="text-xs top-100 left-25 rotate-5 overflow-hidden absolute 
         animate-typing animate-blink-caret tracking-wider whitespace-nowrap
-        sm:left-47 sm:text-sm 
+        sm:left-55
         md:left-71 md:top-100 md:text-xs
         lg:left-98 lg:top-85 lg:text-sm lg:font-bold
         xl:left-147 xl:top-85 xl:text-xl 

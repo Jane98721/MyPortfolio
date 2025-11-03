@@ -10,11 +10,11 @@ const arrowLeft = <FontAwesomeIcon icon={faArrowLeft} />
 
      <button onClick ={goBack} className ="text-xl animate-bounce hover:cursor-pointer 
                 absolute top-[630px] left-[90px]
-                sm:left-[140px] sm:top-[670px] 
-                md:left-[170px] md:top-[670px] md:text-3xl
-                lg:left-[290px] lg:top-[680px] 
+                sm:left-[170px] sm:top-[505px] 
+                md:left-[210px] md:top-[650px] md:text-3xl
+                lg:left-[330px] lg:top-[660px] 
                 xl:left-[540px] xl:top-[660px]
-                2xl:left-[690px] 2xl:top-[805px] 2xl:text-5xl">
+                2xl:left-[690px] 2xl:top-[800px] 2xl:text-5xl">
                   {arrowLeft}
                 </button>
    );
