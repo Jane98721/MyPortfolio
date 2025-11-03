@@ -111,9 +111,9 @@ function Buttons ({goBack}) {
          </div>
        </div>
 
-         <div className ="text-3xl absolute mt-155 ml-41
-         sm:mt-125 sm:ml-76 
-         md:mt-165 md:ml-92
+         <div className ="absolute mt-148 ml-44
+         sm:mt-125 sm:ml-78 sm:text-2xl
+         md:mt-165 md:ml-92 md:text-3xl
          lg:mt-165 lg:ml-124
          xl:mt-165 xl:ml-186
          2xl:mt-190 2xl:ml-230 2xl:text-5xl

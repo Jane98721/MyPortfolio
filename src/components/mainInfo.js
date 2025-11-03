@@ -41,12 +41,12 @@ function MainInfo ({goToNext, goBack}) {
       
       <div className="flex flex-col items-center sm:items-start ">
       <div className ="bg-gray-200 absolute w-[90%]
-       mt-13 border-1
-       sm:w-60 sm:h-95 sm:top-15 sm:ml-16 sm:border-1
-       md:w-64 md:h-110 md:left-11 md:mt-35
-       lg:w-75 lg:h-110 lg:left-35 lg:mt-37
-       xl:w-90 xl:h-130 xl:left-82 xl:mt-15
-       2xl:w-100 2xl:h-150 2xl:mt-26 2xl:left-113" >
+       mt-11 border-1
+       sm:w-60 sm:h-95 sm:top-17 sm:ml-16 sm:border-1
+       md:w-64 md:h-110 md:left-11 md:mt-33
+       lg:w-75 lg:h-110 lg:left-35 lg:mt-35
+       xl:w-90 xl:h-130 xl:left-82 xl:mt-13
+       2xl:w-100 2xl:h-150 2xl:mt-24 2xl:left-113" >
         
         <div className ="flex flex-col items-center gap-3">
            <img src ="Bild.jpg" alt="Bild på mig" 

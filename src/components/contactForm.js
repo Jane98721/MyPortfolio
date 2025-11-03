@@ -29,7 +29,7 @@ function ContactForm () {
   return (
   
   <div className="flex flex-col items-center sm:items-start"> 
-  <div className ="bg-gray-200 absolute border-2 w-[90%] h-62 mt-87 
+  <div className ="bg-gray-200 absolute border-2 w-[90%] h-60 mt-87 
     sm:w-65 sm:h-95 sm:mt-28 sm:ml-85     
     md:w-68 md:h-110 md:mt-50 md:ml-100
     lg:w-70 lg:h-110 lg:mt-54 lg:ml-137
@@ -103,7 +103,7 @@ function ContactForm () {
               />
               
               <button
-              className ="border-2 text-xs hover:cursor-pointer mt-2 mb-3 hover:bg-gray-300 h-8 w-15 bg-white
+              className ="border-2 text-xs hover:cursor-pointer mt-2 mb-3 hover:bg-gray-300 h-6 w-15 bg-white
               sm:w-20 sm:h-9 sm:text-sm
               md:w-25 md:h-10 md:text-base md:mt-3
               lg:w-25 lg:text-lg   

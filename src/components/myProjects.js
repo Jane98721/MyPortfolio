@@ -10,7 +10,7 @@ const MyProjects = () => {
   xl:w-94 xl:h-130 xl:ml-485 xl:mt-30
   2xl:w-100 2xl:h-150 2xl:ml-595 2xl:mt-41'>
     
-  <h1 className ="font-bold text-center mt-2 mb-3
+  <h1 className ="font-bold text-center mt-1 mb-2
     md:mt-4 md:text-lg 
     xl:pt-5 xl:text-2xl">
       My projects
