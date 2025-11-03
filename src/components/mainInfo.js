@@ -100,12 +100,7 @@ function MainInfo ({goBack, goToNext}) {
                   </div>
                 </div>
               </div>
-                <div className ="absolute mt-93 ml-3
-                sm:mt-40 sm:ml-83
-                md:ml-103 md:mt-43
-                lg:ml-134 lg:mt-43
-                xl:ml-200 xl:mt-21
-                2xl:ml-245 2xl:mt-34">
+                <div>
                   <MyProjects/>
                   </div>
              </div>

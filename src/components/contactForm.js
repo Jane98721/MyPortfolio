@@ -28,51 +28,48 @@ function ContactForm () {
 
   return (
   
-  <div className="flex flex-col"> 
-  <div className ="bg-gray-200
-    w-71
-    sm:w-70 sm:h-119 
-    md:w-75 md:h-120
-    lg:w-80 lg:h-130
-    xl:w-90 xl:h-140
-    2xl:w-110 2xl:h-155"> 
+  <div className="flex flex-col items-center sm:items-start"> 
+  <div className ="bg-gray-200 absolute border-2 w-[90%] h-62 mt-100 
+    sm:w-70 sm:h-119 sm:mt-40 sm:ml-82     
+    md:w-75 md:h-120 md:mt-44 md:ml-103
+    lg:w-80 lg:h-130 lg:mt-42 lg:ml-135
+    xl:w-90 xl:h-140 xl:mt-20 xl:ml-200
+    2xl:w-110 2xl:h-155 2xl:mt-30 2xl:ml-248 "> 
     
-    <div className ="text-center font-bold">
-      <h1 className ="mb-2 pt-2 text-xs
+    <div className ="flex flex-col items-center font-bold gap-2
+    lg:gap-4">
+      <h1 className ="text-xs m-1
         sm:text-base
         md:text-lg
-        lg:text-xl lg:pt-4
+        lg:text-xl 
         xl:text-2xl">
           Contact me
           </h1>
           
           <h2 className ="text-xs
           sm:text-base
-          md:text-lg
-          xl:mb-3
           2xl:text-xl">
             To contact me please fill out this form 
             </h2>
             </div>
             
-          <div className ="">
-            <form ref = {form} onSubmit={sendEmail} className ="flex flex-col items-center gap-2 
+          <div className ="flex flex-col">
+
+            <form ref = {form} onSubmit={sendEmail} className="flex flex-col items-center gap-2  
             sm:gap-4
             md:gap-3
             lg:gap-4
             xl:gap-5
             2xl:gap-6">
-              
+
               <input 
               type ="text"
               placeholder="Name"
               name ="name"
               required
-              className ="border-2 w-60 h-6 mt-2 pl-2 bg-white
+              className ="border-2 h-6 mt-2 pl-2 bg-white w-[95%]
               sm:h-10
-              lg:w-70 
-              xl:w-75 xl:h-10
-              2xl:w-105"
+              xl:xl:h-10"
               />
               
               <input 
@@ -80,11 +77,9 @@ function ContactForm () {
               placeholder ="E-mail"
               name ="email"
               required
-              className ="border-2 w-60 h-6 pl-2 bg-white
+              className ="border-2 h-6 pl-2 bg-white w-[95%]
               sm:h-10
-              lg:w-70 
-              xl:w-75 xl:h-10
-              2xl:w-105" 
+              xl:h-10" 
               />
               
               <input 
@@ -92,23 +87,21 @@ function ContactForm () {
               placeholder ="Subject"
               name ="title"
               required
-              className ="border-2 w-60 h-6 pl-2 bg-white
-              sm:h-10
-              lg:w-70 
-              xl:w-75 xl:h-10
-              2xl:w-105"
+              className ="border-2 h-6 pl-2 bg-white w-[95%]
+              sm:h-10 
+              xl:h-10"
               />
               
               <textarea 
               type ="text"
-              placeholder ="Message"
+              placeholder ="Message" 
               name ="message"
               required
-              className ="border-2 w-60 h-10 pl-2 pt-2 bg-white
+              className ="border-2 h-10 pl-2 pt-2 bg-white w-[95%]
               sm:h-28
-              lg:w-70 lg:h-25 
-              xl:h-40 xl:w-75
-              2xl:w-105 2xl:h-50" 
+              g:h-25 
+              xl:h-40 
+              2xl:h-50" 
               />
               
               <button

@@ -28,7 +28,7 @@ function Buttons ({goBack}) {
   
   <div className ="relative">
     <div className ="flex absolute h-screen w-full">
-      <img className=" w-[100%] h-screen object-cover object-[50%]
+      <img className="w-[100%] h-screen object-cover object-[50%]
       absolute scale-90 transform transition-transform duration-700 
       md:w-[100%] md:h-[900px] md:object-cover md:object-[52%_9%] md:scale-86
       xl:w-[1280px] xl:h-[100%] xl:scale-90 xl:left-30 xl:object-cover xl:object-[50%_40%]
@@ -45,7 +45,7 @@ function Buttons ({goBack}) {
         2xl:w-110 2xl:h-155 2xl:mt-30 2xl:ml-120 ">
           
           <div className ="flex flex-col text-center mt-2 gap-4">
-          <p className ="font-bold text-xs
+          <p className ="font-bold text-xs m-1
           sm:text-base
           md:text-lg 
           xl:text-xl"> 
@@ -106,13 +106,7 @@ function Buttons ({goBack}) {
           </div>
           </div>
         
-        <div className ="absolute border-2 mt-100
-        sm:mt-40 sm:ml-82
-        md:mt-44 md:ml-102
-        lg:mt-42 lg:ml-135
-        xl:mt-20 xl:ml-200
-        2xl:mt-30 2xl:ml-248 
-         "> 
+        <div> 
          <ContactForm/>
          </div>
        </div>
