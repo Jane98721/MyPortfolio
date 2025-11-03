@@ -16,7 +16,7 @@ return (
     src="book.jpg" alt="bild på bok"/>
     
     <div>
-      <p className ="absolute top-120 left-18 font-bold rotate-5
+      <p className ="absolute top-85 left-25 font-bold rotate-5
       sm:left-58 sm:text-lg
       md:left-75 md:top-110 md:text-lg
       lg:left-104 lg:top-110 lg:text-2xl
@@ -25,9 +25,9 @@ return (
         Welcome to my portfolio
         </p>
         
-        <p className ="text-xs top-130 left-10 font-bold rotate-5 overflow-hidden absolute 
+        <p className ="text-xs top-100 left-19 rotate-5 overflow-hidden absolute 
         animate-typing animate-blink-caret tracking-wider whitespace-nowrap
-        sm:left-47 sm:text-sm
+        sm:left-47 sm:text-sm sm:font-bold
         md:left-68 md:top-125
         lg:left-101 lg:top-125 lg:text-sm
         xl:left-147 xl:top-85 xl:text-xl 
@@ -37,7 +37,7 @@ return (
         
         <button onClick = {goToNext}
         className ="hover:cursor-pointer animate-bounce absolute text-4xl
-        top-140 left-35
+        top-115 left-41
         sm:left-75
         md:left-92 md:top-140
         lg:left-130 lg:top-140

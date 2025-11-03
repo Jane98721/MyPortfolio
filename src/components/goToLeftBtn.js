@@ -9,7 +9,7 @@ const arrowLeft = <FontAwesomeIcon icon={faArrowLeft} />
   return ( 
 
      <button onClick ={goBack} className ="text-xl animate-bounce hover:cursor-pointer 
-                absolute top-[655px] left-[90px]
+                absolute top-[630px] left-[90px]
                 sm:left-[140px] sm:top-[670px] 
                 md:left-[170px] md:top-[670px] md:text-3xl
                 lg:left-[290px] lg:top-[680px] 

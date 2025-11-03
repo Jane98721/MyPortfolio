@@ -29,7 +29,7 @@ function ContactForm () {
   return (
   
   <div className="flex flex-col items-center sm:items-start"> 
-  <div className ="bg-gray-200 absolute border-2 w-[90%] h-62 mt-100 
+  <div className ="bg-gray-200 absolute border-2 w-[90%] h-62 mt-87 
     sm:w-70 sm:h-119 sm:mt-40 sm:ml-82     
     md:w-75 md:h-120 md:mt-44 md:ml-103
     lg:w-80 lg:h-130 lg:mt-42 lg:ml-135

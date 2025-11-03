@@ -7,7 +7,7 @@ const arrowRight = <FontAwesomeIcon icon={faArrowRight} />
 
 return ( 
 
-<button className ="hover:cursor-pointer animate-bounce absolute top-[655px] 
+<button className ="hover:cursor-pointer animate-bounce absolute top-[630px] 
 left-[260px] text-xl
 sm:left-[460px] sm:top-[670px] 
 md:left-[540px] md:top-[670px] md:text-3xl

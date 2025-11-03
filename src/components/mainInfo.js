@@ -41,7 +41,7 @@ function MainInfo ({goToNext, goBack}) {
       
       <div className="flex flex-col items-center sm:items-start ">
       <div className ="bg-gray-200 absolute w-[90%]
-       mt-18 border-1
+       mt-13 border-1
        sm:w-70 sm:h-120 sm:top-8 sm:ml-8 sm:border-1
        md:w-75 md:h-120 md:left-7 md:mt-35
        lg:w-85 lg:h-120 lg:left-33 lg:mt-35
