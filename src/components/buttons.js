@@ -111,7 +111,7 @@ function Buttons ({goBack}) {
          </div>
        </div>
 
-         <div className ="absolute mt-147 ml-38
+         <div className ="absolute mt-147 ml-44
          sm:mt-125 sm:ml-78 sm:text-xl
          md:mt-163 md:ml-92 md:text-3xl
          lg:mt-163 lg:ml-124

@@ -25,7 +25,7 @@ return (
         Welcome to my portfolio
         </p>
         
-        <p className ="text-xs top-100 left-19 rotate-5 overflow-hidden absolute 
+        <p className ="text-xs top-100 left-18 rotate-5 overflow-hidden absolute 
         animate-typing animate-blink-caret tracking-wider whitespace-nowrap
         sm:left-55
         md:left-71 md:top-100 md:text-xs
