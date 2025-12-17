@@ -31,18 +31,18 @@ function Buttons ({goBack}) {
       <img className="w-[100%] h-screen object-cover object-[50%]
       absolute scale-90 transform transition-transform duration-700 
       md:w-[100%] md:h-[900px] md:object-cover md:scale-75
-      xl:w-[1280px] xl:h-[790px] xl:scale-85 xl:left-30 xl:object-cover xl:object-[50%_40%]
+      xl:w-[1280px] xl:h-[790px] xl:scale-80 xl:left-30 xl:object-cover xl:object-[50%_40%]
       2xl:h-[925px] 2xl:w-[80%] 2xl:left-45 2xl:top-6"
       src="Book pages.jpg" alt="bild på dator"/>
       </div>
   
       <div className ="flex flex-col items-center sm:items-start">
-        <div className ="bg-gray-200 absolute w-[90%] h-62 border-2 mt-25
+        <div className ="bg-gray-200 absolute w-[90%] h-62 border-2 mt-22
         sm:w-65 sm:h-95 sm:ml-14 sm:mt-28 
         md:w-70 md:h-110 md:mt-50 md:ml-25
-        lg:w-70 lg:h-110 lg:mt-54 lg:ml-53
-        xl:w-90 xl:h-130 xl:mt-28 xl:ml-98
-        2xl:w-100 2xl:h-145 2xl:mt-40 2xl:ml-129 ">
+        lg:w-70 lg:h-110 lg:mt-52 lg:ml-53
+        xl:w-87 xl:h-128 xl:mt-30 xl:ml-101
+        2xl:w-100 2xl:h-145 2xl:mt-43 2xl:ml-131 ">
           
           <div className ="flex flex-col text-center mt-2 gap-4">
           <p className ="font-bold text-xs m-1
@@ -111,13 +111,14 @@ function Buttons ({goBack}) {
          </div>
        </div>
 
-         <div className ="absolute mt-148 ml-44
-         sm:mt-125 sm:ml-78 sm:text-2xl
-         md:mt-165 md:ml-92 md:text-3xl
-         lg:mt-165 lg:ml-124
-         xl:mt-165 xl:ml-186
-         2xl:mt-190 2xl:ml-230 2xl:text-5xl
+         <div className ="absolute mt-147 ml-38
+         sm:mt-125 sm:ml-78 sm:text-xl
+         md:mt-163 md:ml-92 md:text-3xl
+         lg:mt-163 lg:ml-124
+         xl:mt-161 xl:ml-186
+         2xl:mt-193 2xl:ml-232 2xl:text-4xl
          ">
+
           <button onClick ={goBack} className ="animate-bounce hover:cursor-pointer">
             {arrowLeft}
           </button>

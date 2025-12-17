@@ -29,12 +29,12 @@ function ContactForm () {
   return (
   
   <div className="flex flex-col items-center sm:items-start"> 
-  <div className ="bg-gray-200 absolute border-2 w-[90%] h-60 mt-87 
+  <div className ="bg-gray-200 absolute border-2 w-[90%] h-70 mt-84 
     sm:w-65 sm:h-95 sm:mt-28 sm:ml-85     
     md:w-68 md:h-110 md:mt-50 md:ml-100
-    lg:w-70 lg:h-110 lg:mt-54 lg:ml-137
-    xl:w-90 xl:h-130 xl:mt-28 xl:ml-196
-    2xl:w-100 2xl:h-145 2xl:mt-40 2xl:ml-247 "> 
+    lg:w-70 lg:h-110 lg:mt-52 lg:ml-137
+    xl:w-88 xl:h-128 xl:mt-30 xl:ml-196
+    2xl:w-100 2xl:h-145 2xl:mt-43 2xl:ml-245 "> 
     
     <div className ="flex flex-col items-center font-bold gap-2
     lg:gap-4">

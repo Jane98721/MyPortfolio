@@ -5,8 +5,8 @@ const MyProjects = () => {
   <div className="flex flex-col items-center">
   <div className='absolute bg-gray-200 w-[90%] border-1 mt-78
   sm:w-60 sm:h-95 sm:border-1 sm:mt-28 sm:ml-235                
-  md:w-64 md:h-110 md:ml-272 md:mt-50
-  lg:w-75 lg:h-110 lg:ml-345 lg:mt-52
+  md:w-70 md:h-110 md:ml-276 md:mt-49
+  lg:w-75 lg:h-110 lg:ml-345 lg:mt-48
   xl:w-94 xl:h-130 xl:ml-485 xl:mt-30
   2xl:w-100 2xl:h-150 2xl:ml-595 2xl:mt-41'>
     

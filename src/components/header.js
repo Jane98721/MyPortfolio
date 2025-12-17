@@ -19,7 +19,7 @@ return (
       <p className ="absolute top-85 left-28 font-bold rotate-5
       sm:left-58 sm:text-lg
       md:left-75 md:top-90 md:text-lg
-      lg:left-101 lg:top-70 lg:text-2xl
+      lg:left-101 lg:top-125 lg:text-2xl
       xl:left-158 xl:top-60 xl:text-3xl 
       2xl:left-200 2xl:top-80 2xl:text-4xl">
         Welcome to my portfolio
@@ -29,7 +29,7 @@ return (
         animate-typing animate-blink-caret tracking-wider whitespace-nowrap
         sm:left-55
         md:left-71 md:top-100 md:text-xs
-        lg:left-98 lg:top-85 lg:text-sm lg:font-bold
+        lg:left-98 lg:top-140 lg:text-sm lg:font-bold
         xl:left-147 xl:top-85 xl:text-xl 
         2xl:left-185 2xl:top-110 2xl:text-2xl"> 
         Jane Lehtola - Junior Frontend Developer 
@@ -40,7 +40,7 @@ return (
         top-115 left-41
         sm:left-75
         md:left-92 md:top-110
-        lg:left-125 lg:top-100
+        lg:left-125 lg:top-155
         xl:left-190 xl:top-110 xl:text-5xl
         2xl:left-240 2xl:top-140 2xl:text-6xl">
           {arrow}

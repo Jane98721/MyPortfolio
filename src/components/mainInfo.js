@@ -34,20 +34,20 @@ function MainInfo ({goToNext, goBack}) {
       <img className="w-[100%] h-screen object-cover object-[50%]
       absolute scale-90 transform transition-transform duration-700
       sm:w-[100%] sm:h-screen sm:object-cover sm:object-[50%]
-      md:w-[100%] md:h-[900px] md:object-cover md:object-[] md:scale-75
-      xl:w-[1280px] xl:h-[790px] xl:scale-85 xl:left-30 xl:object-cover xl:object-[50%_40%] 
+      md:w-[100%] md:h-[900px] md:object-cover md:object-[] md:scale-80
+      xl:w-[1280px] xl:h-[790px] xl:scale-83 xl:left-30 xl:object-cover xl:object-[50%_40%] 
       2xl:h-[925px] 2xl:w-[80%] 2xl:left-45 2xl:top-7"
       src="Book pages.jpg" alt="bild på dator"/>
       </div>
       
       <div className="flex flex-col items-center sm:items-start">
       <div className ="bg-gray-200 absolute w-[90%]
-       mt-11 border-2
-       sm:w-60 sm:h-95 sm:top-17 sm:ml-16 sm:border-1
-       md:w-64 md:h-110 md:left-11 md:mt-33
-       lg:w-75 lg:h-110 lg:left-35 lg:mt-35
-       xl:w-90 xl:h-130 xl:left-82 xl:mt-13
-       2xl:w-100 2xl:h-150 2xl:mt-24 2xl:left-113" >
+       mt-8 border-2
+       sm:w-60 sm:h-95 sm:top-20 sm:ml-16 sm:border-1
+       md:w-70 md:h-110 md:left-7 md:mt-29
+       lg:w-75 lg:h-110 lg:left-35 lg:mt-28
+       xl:w-90 xl:h-130 xl:left-82 xl:mt-10
+       2xl:w-100 2xl:h-150 2xl:mt-21 2xl:left-113" >
         
         <div className ="flex flex-col items-center gap-3">
            <img src ="Bild.jpg" alt="Bild på mig" 
