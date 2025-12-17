@@ -17,7 +17,7 @@ const MyProjects = () => {
       </h1>
       
       <div className ="flex flex-col items-center justify-center gap-5">
-        <img src ="portal-projekt.png" alt="bild på portal projekt" 
+        <img src ="projekt.png" alt="bild på portal projekt" 
          className="w-38
           sm:w-53 sm:h-32
           md:w-60 md:h-35 
@@ -29,7 +29,7 @@ const MyProjects = () => {
           md:text-base
           xl:text-lg
           2xl:text-xl">
-            Portal 
+            Portal-book project 
             </p>
             
             <p className ="text-xs m-1
@@ -37,8 +37,8 @@ const MyProjects = () => {
             lg:text-sm 
             xl:text-base
             2xl:text-lg">
-              The frontend is developed with React and styled using Tailwind CSS, while
-              the backend is implemented with Express - Node.js
+              The frontend is developed with Angular and styled using Bootstrap & CSS while
+              the backend is implemented with .NET
               </p>
               
               <p className ="font-bold text-xs
@@ -50,7 +50,7 @@ const MyProjects = () => {
               lg:text-base
               2xl:text-lg 2xl:hover:text-2xl">
                 You can view the frontend code 
-                <a href ="https://github.com/Jane98721/Portal-frontend.git">
+                <a href ="https://github.com/Jane98721/books-angular.git">
                 <span className ="underline"> here</span></a>
                 </p>
                 
@@ -58,7 +58,7 @@ const MyProjects = () => {
                 lg:text-base
                 2xl:text-lg 2xl:hover:text-2xl">
                   You can view the backend code 
-                  <a href ="https://github.com/Jane98721/Portal-backend.git">
+                  <a href ="https://github.com/Jane98721/Api-users.git">
                   <span className ="underline" > here</span></a>
                   </p>
           </div>

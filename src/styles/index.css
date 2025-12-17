@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-  background-color: rgba(75, 41, 2, 0.982);
+  background-color: rgba(85, 55, 22, 0.982);
 }
 .bounce {
   animation: bounce 1s infinite;

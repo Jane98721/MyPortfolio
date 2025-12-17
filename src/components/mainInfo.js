@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons/faHtml5'
 import { faCss } from '@fortawesome/free-brands-svg-icons/faCss'
-import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faAngular, faReact } from '@fortawesome/free-brands-svg-icons'
 import { faJs } from '@fortawesome/free-brands-svg-icons/faJs'
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons/faNodeJs'
 import { faB } from '@fortawesome/free-solid-svg-icons/faB'
@@ -21,6 +21,7 @@ const B = <FontAwesomeIcon icon={faB} />
 const A = <FontAwesomeIcon icon={faA} />
 const Database = <FontAwesomeIcon icon={faDatabase} />
 const Github = <FontAwesomeIcon icon={faGithub} />
+const Angular = <FontAwesomeIcon icon={faAngular} />
 
 
 function MainInfo ({goToNext, goBack}) {
@@ -39,9 +40,9 @@ function MainInfo ({goToNext, goBack}) {
       src="Book pages.jpg" alt="bild på dator"/>
       </div>
       
-      <div className="flex flex-col items-center sm:items-start ">
+      <div className="flex flex-col items-center sm:items-start">
       <div className ="bg-gray-200 absolute w-[90%]
-       mt-11 border-1
+       mt-11 border-2
        sm:w-60 sm:h-95 sm:top-17 sm:ml-16 sm:border-1
        md:w-64 md:h-110 md:left-11 md:mt-33
        lg:w-75 lg:h-110 lg:left-35 lg:mt-35
@@ -91,6 +92,8 @@ function MainInfo ({goToNext, goBack}) {
                     <li>Tailwind CSS</li>
                     <li>MongoDB{Database}</li>
                     <li>Github{Github}</li>
+                    <li>Angular{Angular}</li>
+                    <li>.NET</li>
                     </ul>
                   </div>
                 </div>
